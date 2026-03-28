@@ -1,6 +1,6 @@
 # 😎 Awesome Minis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated collection of real-world **[Minis](https://minis.app)** use cases, workflows, and creative scenarios — contributed by the community.
+> A curated collection of real-world **[Minis](https://openminis.app)** use cases, workflows, and creative scenarios — contributed by the community.
 
 **Minis** is an AI-powered assistant running on iOS with a full Linux shell (Alpine Linux), native Apple framework integrations (HealthKit, Calendar, Reminders, HomeKit, etc.), and a rich skill ecosystem. This repository collects the best ways people are actually using it.
 
