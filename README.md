@@ -26,6 +26,7 @@
 | [Apple Watch Heart Health Monitor](cases/health/apple-watch-heart-health.md) | Analyze heart rate, HRV, blood oxygen, and ECG data from HealthKit to detect early warning signs and generate a risk report | OpenMinis | `cardiac-health-monitor` |
 | [Explore Comprehensive HealthKit Data](cases/health/health-data-exploration.md) | Ask Minis to autonomously explore all your Apple Watch metrics — heart rate, steps, sleep, SpO₂ — and give you a weekly trend analysis | Alan Chen | Built-in |
 | [Photo a Coffee → Auto-Log Caffeine](cases/health/photo-log-caffeine.md) | Take a photo of your coffee, Minis identifies it and automatically logs the caffeine intake to Apple Health | @wsvn53 | Built-in |
+| [Photo Every Meal → Auto-Log Nutrition](cases/health/photo-log-meals.md) | Snap a photo of each meal — Minis identifies dishes, estimates calories/protein/carbs, and logs it all to Apple Health | @infinite_Game_ | Built-in |
 
 ## ⚡ Productivity & Automation
 
@@ -50,6 +51,7 @@
 |------|-------------|----|-------------|
 | [Automated Paywall Bypass Article Reader](cases/research/paywall-bypass-reader.md) | Automatically rewrite paywalled article URLs to public archive links and read full content inside the chat | oneasai | Built-in (browser) |
 | [Fetch HK News & Generate Chinese HTML Digest](cases/research/hk-news-html-digest.md) | Fetch Hong Kong news articles, translate and summarize in Chinese, output as a formatted HTML digest | meng nimen | Built-in (browser) |
+| [City Commercial Market Research Report](cases/research/city-commercial-market-research.md) | One sentence → Minis searches JLL/Winshang/DTZ, writes analysis scripts, and generates a full market report with charts | @wsvn53 | Built-in |
 
 ## 🎨 Creative & Content
 
