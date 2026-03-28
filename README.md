@@ -88,7 +88,6 @@
 |------|-------------|----|-------------|
 | [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers with natural language — check disk, memory, services, run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
 | [Screenshot API Console to Auto-Configure](cases/developer/api-setup-via-screenshot.md) | Screenshot a confusing API console and let Minis read it, extract keys, and configure everything automatically | 小渔 黄 | Built-in (vision) |
-| [Real-Time Execution Monitor on iPad](cases/developer/realtime-execution-monitor-ipad.md) | Generate a live web dashboard that monitors Minis task execution in real-time, viewable in split-screen on iPad | king 华 | Built-in (shell) |
 | [Auto-Copy Skills Between Devices/Agents](cases/developer/skill-copy-between-devices.md) | Let Minis detect and copy all skill configs from another AI agent platform and recreate them | 如幻 | Built-in |
 | [Remote iOS App Dev](cases/developer/remote-ios-app-dev.md) | SSH into a Mac, build and compile an iOS app, run tests, and commit code — all from Minis | OpenMinis | `remote-dev-minis-app` |
 | [Long Screenshot Stitcher](cases/developer/long-screenshot-stitcher.md) | Automatically stitch multiple iOS screenshots into one seamless long screenshot | OpenMinis | `ios-long-screenshot` |
