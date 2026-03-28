@@ -56,6 +56,13 @@ Search for some rainy-day jazz and shuffle play
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/spotify-voice-control.jpg)
+
+*📷 说「换首歌」→ Minis 切换 Apink 歌曲，当前播放 Love Me More · @wsvn53 · 2026-03-22*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] `spotify-hub` skill 已安装

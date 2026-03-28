@@ -47,6 +47,13 @@ Add all these songs to my YouTube Music "Nostalgia" playlist.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/tiktok-to-ytmusic-playlist.jpg)
+
+*📷 发送 TikTok 链接 → 识别 50 首华语封神 OST → 导出 YouTube Music 歌单 · @wsvn53 via appinn.com · 2026-03-16*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] `ytmusic-hub` skill 已安装，YouTube Music Cookie 已配置

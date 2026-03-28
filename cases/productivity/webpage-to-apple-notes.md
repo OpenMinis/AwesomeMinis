@@ -47,6 +47,13 @@ https://github.com/jackwener/xiaohongshu-cli
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/webpage-to-apple-notes.jpg)
+
+*📷 发送 GitHub 链接 → Minis 整理成结构化笔记 → 写入 Apple Notes · @wsvn53 via appinn.com · 2026-03-11*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] Apple Notes 权限已授予 Minis

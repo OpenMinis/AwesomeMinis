@@ -47,6 +47,13 @@ Log the caffeine intake for this coffee.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/photo-log-caffeine.jpg)
+
+*📷 拍摄咖啡胶囊 → Minis 识别并记录咖啡因 → Apple Health 显示每周趋势 · @wsvn53 via appinn.com · 2026-03-06*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] HealthKit 写入权限已授予 Minis

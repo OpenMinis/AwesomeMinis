@@ -50,6 +50,13 @@ and write new items to the "Minis" reminder list.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/group-messages-to-reminders.jpg)
+
+*📷 群消息涌入 → AI自动整理 → 写入系统提醒 → 对照代码库标记完成 · @wsvn53 via appinn.com · 2026-03-11*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] `tg-hub` skill 已安装，Telegram 账号已登录

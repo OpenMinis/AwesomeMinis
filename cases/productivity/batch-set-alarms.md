@@ -52,6 +52,13 @@ Set the following alarms for me:
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/batch-set-alarms.jpg)
+
+*📷 一句话批量设置工作日+周日闹钟，Minis 自动处理复杂重复规则 · @wsvn53 via appinn.com · 2026-03-05*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] iOS 26+（apple-alarm 需要 AlarmKit 支持）

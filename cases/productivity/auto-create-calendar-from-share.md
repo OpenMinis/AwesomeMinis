@@ -53,6 +53,13 @@ Add this to my calendar.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/auto-create-calendar-from-share.jpg)
+
+*📷 分享活动信息 → Minis 自动创建日历事件，右侧日历 App 同步显示 · @caizhenghai via appinn.com · 2026-03-26*
+
 ## 👤 贡献者 / Contributor
 
 [@wsvn53](https://x.com/wsvn53) · [appinn.com](https://www.appinn.com/iphone-automation-11-real-use-cases/)

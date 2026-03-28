@@ -48,6 +48,13 @@ into a morning briefing, generate audio with doubao-tts and play it.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot](../../assets/screenshots/x-timeline-voice-alarm.jpg)
+
+*📷 X Timeline 早安播报完整流程：① 设置自动化 ② 获取X数据 ③ AI生成播报 ④ TTS输出 · @wsvn53 via appinn.com · 2026-03-12*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] `twitter-x-hub` skill 已安装，X 账号 Cookie 已配置
