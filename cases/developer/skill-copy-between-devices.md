@@ -45,13 +45,16 @@ Analyze and copy all skill configurations from [Agent name] and recreate equival
 ---
 
 
+
 ## 📸 截图 / Screenshots
 
 ![Screenshot by Zigzag](../../assets/screenshots/skill-copy-between-devices.jpg)
-*📷 Shared by **Zigzag** · 2026-03-28* — 这是本次tf更新后同一个session发送消息并回复后的样子
+
+*📷 Shared by **Zigzag** · 2026-03-22* — Minis 列出所有内容抓取类技能
 
 ![Screenshot by Zigzag](../../assets/screenshots/skill-copy-between-devices-2.jpg)
-*📷 Shared by **Zigzag** · 2026-03-28* — 这是本次tf更新前交流的内容，更新后再打开的样子
+
+*📷 Shared by **Zigzag** · 2026-03-22* — Minis 分析 skill 安全性与功能
 
 ## ⚙️ 配置要求 / Requirements
 

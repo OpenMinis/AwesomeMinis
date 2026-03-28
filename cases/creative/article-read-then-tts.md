@@ -45,13 +45,12 @@ Read this article and summarize the key points. When done, automatically generat
 ---
 
 
+
 ## 📸 截图 / Screenshots
 
 ![Screenshot by oneasai](../../assets/screenshots/article-read-then-tts.jpg)
-*📷 Shared by **oneasai** · 2026-03-24* — 烧token，不过免费
 
-![Screenshot by oneasai](../../assets/screenshots/article-read-then-tts-2.jpg)
-*📷 Shared by **oneasai** · 2026-03-24* — 强大，生成完文本自动播放豆包语音版，而且强制与文本一摸一样
+*📷 Shared by **oneasai** · 2026-03-24* — 文章总结后自动生成语音版并播放
 
 ## ⚙️ 配置要求 / Requirements
 

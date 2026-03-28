@@ -45,13 +45,16 @@ SSH into my Oracle server at [IP], check disk usage, memory, and running service
 ---
 
 
+
 ## 📸 截图 / Screenshots
 
 ![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management.jpg)
-*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28*
+
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-27* — Minis SSH 查看服务器防火墙状态
 
 ![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management-2.jpg)
-*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28* — 密钥文件
+
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-27* — SSH 连接甲骨文服务器
 
 ## ⚙️ 配置要求 / Requirements
 

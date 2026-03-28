@@ -46,13 +46,12 @@ Fetch today's weather forecast and top tech news, format as a daily briefing, th
 ---
 
 
+
 ## 📸 截图 / Screenshots
 
 ![Screenshot by meng nimen](../../assets/screenshots/daily-briefing-wechat-push.jpg)
-*📷 Shared by **meng nimen** · 2026-03-28*
 
-![Screenshot by Alan Chen](../../assets/screenshots/daily-briefing-wechat-push-2.jpg)
-*📷 Shared by **Alan Chen** · 2026-03-28* — 一开始卡住好像是没自己装 git，装好了又卡住了
+*📷 Shared by **meng nimen** · 2026-03-25* — 发送到微信 ClawBot skill 配置
 
 ## ⚙️ 配置要求 / Requirements
 

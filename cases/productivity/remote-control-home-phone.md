@@ -45,13 +45,8 @@
 ---
 
 
+
 ## 📸 截图 / Screenshots
-
-![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/remote-control-home-phone.jpg)
-*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28*
-
-![Screenshot by Eth Hwang](../../assets/screenshots/remote-control-home-phone-2.jpg)
-*📷 Shared by **Eth Hwang** · 2026-03-28*
 
 ## ⚙️ 配置要求 / Requirements
 

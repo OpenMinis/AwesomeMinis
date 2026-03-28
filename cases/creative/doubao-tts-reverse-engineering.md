@@ -45,13 +45,13 @@ Install and use the reverse-engineered Doubao TTS project to convert the followi
 ---
 
 
+
+
 ## 📸 截图 / Screenshots
 
 ![Screenshot by oneasai](../../assets/screenshots/doubao-tts-reverse-engineering.jpg)
-*📷 Shared by **oneasai** · 2026-03-24* — 烧token，不过免费
 
-![Screenshot by oneasai](../../assets/screenshots/doubao-tts-reverse-engineering-2.jpg)
-*📷 Shared by **oneasai** · 2026-03-24* — 强大，生成完文本自动播放豆包语音版，而且强制与文本一摸一样
+*📷 Shared by **oneasai** · 2026-03-24* — 文章总结后生成语音，底部显示音频播放器
 
 ## ⚙️ 配置要求 / Requirements
 

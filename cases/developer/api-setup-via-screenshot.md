@@ -45,13 +45,12 @@
 ---
 
 
+
 ## 📸 截图 / Screenshots
 
-![Screenshot by 小渔 黄](../../assets/screenshots/api-setup-via-screenshot.jpg)
-*📷 Shared by **小渔 黄** · 2026-03-24*
-
 ![Screenshot by 小渔 黄](../../assets/screenshots/api-setup-via-screenshot-2.jpg)
-*📷 Shared by **小渔 黄** · 2026-03-25* — 我接的API设置了环境变量。可以用。比起本地部署的声音更好。
+
+*📷 Shared by **小渔 黄** · 2026-03-25* — Minis 环境变量配置页
 
 ## ⚙️ 配置要求 / Requirements
 
