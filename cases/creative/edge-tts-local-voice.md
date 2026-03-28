@@ -45,6 +45,15 @@ Install edge-tts for me, then use it to convert the following text to an audio f
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by 小渔 黄](../../assets/screenshots/edge-tts-local-voice.jpg)
+*📷 Shared by **小渔 黄** · 2026-03-23*
+
+![Screenshot by 小渔 黄](../../assets/screenshots/edge-tts-local-voice-2.jpg)
+*📷 Shared by **小渔 黄** · 2026-03-23* — 我太难了。在64G的iPhone 8plus 环境下测试这一个语音功能。iOS版本受限。存储容量受限。惊喜的是还能够通过本地部署一个轻量级的语音TTS并且测试效
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] 无需 API Key

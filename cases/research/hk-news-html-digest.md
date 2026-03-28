@@ -44,6 +44,15 @@ Fetch today's top stories from hknews, visit each article, summarize in Chinese,
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by meng nimen](../../assets/screenshots/hk-news-html-digest.jpg)
+*📷 Shared by **meng nimen** · 2026-03-22*
+
+![Screenshot by meng nimen](../../assets/screenshots/hk-news-html-digest-2.jpg)
+*📷 Shared by **meng nimen** · 2026-03-22*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] 无需额外配置

@@ -46,6 +46,18 @@ Turn these rough notes into structured tasks, extract key actions, and add them 
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by SI7gen1](../../assets/screenshots/todo-from-notes-dida.jpg)
+*📷 Shared by **SI7gen1** · 2026-03-22* — 扒过提示词，大概长这样
+
+![Screenshot by SI7gen1](../../assets/screenshots/todo-from-notes-dida-2.jpg)
+*📷 Shared by **SI7gen1** · 2026-03-22* — 我想设计一个待办方面的skill
+把用户的随笔，灵感之类的转换成待办，扔待办列表里面
+两部分的提示词测试基本没啥问题 提取待办&润色
+脚本也写好了，可以通过py
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] 滴答清单 API Token 已配置

@@ -45,6 +45,15 @@ After the task completes, push the result to my WeChat via openilink-hub.
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by meng nimen](../../assets/screenshots/wechat-push-via-openilink.jpg)
+*📷 Shared by **meng nimen** · 2026-03-28*
+
+![Screenshot by Alan Chen](../../assets/screenshots/wechat-push-via-openilink-2.jpg)
+*📷 Shared by **Alan Chen** · 2026-03-28* — 一开始卡住好像是没自己装 git，装好了又卡住了
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] openilink-hub 已部署

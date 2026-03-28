@@ -44,6 +44,15 @@ Create a real-time monitoring script that listens to the current task's executio
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by king 华](../../assets/screenshots/realtime-execution-monitor-ipad.jpg)
+*📷 Shared by **king 华** · 2026-03-25*
+
+![Screenshot by king 华](../../assets/screenshots/realtime-execution-monitor-ipad-2.jpg)
+*📷 Shared by **king 华** · 2026-03-25*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] iPad 推荐（手机屏幕太小）

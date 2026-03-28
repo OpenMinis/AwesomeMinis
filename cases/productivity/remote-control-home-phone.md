@@ -2,7 +2,7 @@
 
 **Remote Control Home Phone to Run Tasks**
 
-> 💬 *From the Open Minis community — shared by **朦胧 22:36** on 2026-03-24*
+> 💬 *From the Open Minis community — shared by **朦胧** on 2026-03-24*
 
 ---
 
@@ -44,6 +44,15 @@
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/remote-control-home-phone.jpg)
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28*
+
+![Screenshot by Eth Hwang](../../assets/screenshots/remote-control-home-phone-2.jpg)
+*📷 Shared by **Eth Hwang** · 2026-03-28*
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] 家里设备开启了 SSH 或远程访问
@@ -61,7 +70,7 @@
 
 来自 Open Minis Telegram 社区 / From the Open Minis Telegram community
 
-原始分享者 / Original sharer: **朦胧 22:36**
+原始分享者 / Original sharer: **朦胧**
 
 ---
 

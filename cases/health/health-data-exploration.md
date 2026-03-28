@@ -44,6 +44,15 @@ Fetch my comprehensive health metrics including heart rate, steps, sleep, and bl
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by Alan Chen](../../assets/screenshots/health-data-exploration.jpg)
+*📷 Shared by **Alan Chen** · 2026-03-28* — 一开始卡住好像是没自己装 git，装好了又卡住了
+
+![Screenshot by Alan Chen](../../assets/screenshots/health-data-exploration-2.jpg)
+*📷 Shared by **Alan Chen** · 2026-03-28* — 这里 npx 一直卡住是已知的 bug 吗
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] Apple Watch 已配对

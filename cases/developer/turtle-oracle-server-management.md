@@ -44,6 +44,15 @@ SSH into my Oracle server at [IP], check disk usage, memory, and running service
 
 ---
 
+
+## 📸 截图 / Screenshots
+
+![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management.jpg)
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28*
+
+![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management-2.jpg)
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-28* — 密钥文件
+
 ## ⚙️ 配置要求 / Requirements
 
 - [ ] SSH 密钥已配置或密码已知
