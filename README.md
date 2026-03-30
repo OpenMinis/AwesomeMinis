@@ -14,6 +14,7 @@
 - [Productivity & Automation](#-productivity--automation)
 - [Data & Research](#-data--research)
 - [Creative & Content](#-creative--content)
+- [Finance & Tracking](#-finance--tracking)
 - [Developer Tools](#-developer-tools)
 - [Contributing](#-contributing)
 
@@ -63,7 +64,13 @@
 | [Read Article Then Auto-Generate Audio](cases/creative/article-read-then-tts.md) | After summarizing an article, automatically generate a matching audio version with doubao-tts and auto-play it | oneasai | `doubao-tts` |
 | [Local Lightweight TTS on Old iPhone](cases/creative/edge-tts-local-voice.md) | Install edge-tts via Minis shell for free, offline TTS — works even on a 64GB iPhone 8 Plus | 小渔 黄 | edge-tts (shell) |
 
-## 🛠 Developer Tools
+## 💰 Finance & Tracking
+
+| Name | Description | By | Skills Used |
+|------|-------------|----|-------------|
+| [Photo a Receipt → Auto-Log Expense](cases/finance/receipt-expense-logging.md) | Snap a receipt photo — Minis uses Apple Vision to OCR it, extracts merchant/amount/items, auto-categorizes and logs the expense | Zigzag | Built-in (Vision) |
+
+
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
