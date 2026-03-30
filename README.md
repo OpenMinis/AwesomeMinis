@@ -74,6 +74,7 @@
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
+| [Rescue a Crashed OpenClaw via SSH](cases/developer/openclaw-rescue-ssh.md) | OpenClaw crashed after an update? SSH in from your iPhone, auto-diagnose and restart the service — no laptop needed | @wsvn53 | Built-in (SSH) |
 | [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers with natural language — check disk, memory, services, run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
 | [Auto-Copy Skills Between Devices/Agents](cases/developer/skill-copy-between-devices.md) | Let Minis detect and copy all skill configs from another AI agent platform and recreate them | 如幻 | Built-in |
 
