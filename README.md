@@ -42,6 +42,7 @@
 | [Batch Set Complex Alarms](cases/productivity/batch-set-alarms.md) | Describe your entire alarm schedule in one message — Minis creates all of them at once | appinn | Built-in |
 | [Convert Notes & Ideas into Dida Tasks](cases/productivity/todo-from-notes-dida.md) | Dump raw notes or brain dumps to Minis — it extracts and polishes them into tasks and writes them to Dida (TickTick) | SI7gen1 | Custom (Dida API) |
 | [Schedule Minis Tasks via iOS Shortcuts](cases/productivity/shortcuts-scheduled-task.md) | Use iOS Shortcuts automations to trigger Minis tasks on a schedule — no manual app launch needed | Community | iOS Shortcuts |
+| [Edit Clash Config Without Touching YAML](cases/productivity/clash-config-edit.md) | Drop your Clash config into Minis, say what you want changed — it reads, edits, and outputs a new file with a change summary. Zero YAML editing | @wsvn53 | Built-in |
 | [Remote Control Home Phone to Run Tasks](cases/productivity/remote-control-home-phone.md) | Remotely trigger Minis tasks on your home phone/iPad from anywhere via SSH or network | 朦胧 | Built-in (SSH) |
 | [Taobao Store Management](cases/productivity/taobao-store-management.md) | Built a complete Taobao toolkit from scratch via SSH — order tracking, price comparison, cart management, buyer chat — zero code knowledge required | Da weiwei | Built-in (SSH + shell) |
 
@@ -57,6 +58,8 @@
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
+| [Download X/Twitter Videos](cases/creative/x-video-download.md) | Paste an X video link — Minis auto-installs yt-dlp, downloads video+audio streams, merges with ffmpeg, auto-debugs errors | @wsvn53 | Built-in |
+| [Local Video Compression with ffmpeg](cases/creative/video-compression-ffmpeg.md) | Drop a 4K video — Minis detects codec/bitrate, picks optimal H.265 settings, compresses locally. 32 MB → 13.5 MB, 58% smaller, no quality loss | @wsvn53 | Built-in |
 | [One-Click PPT Generator](cases/creative/one-click-ppt-generator.md) | Turn a script or outline into a Jobs-style minimal HTML presentation in seconds | OpenMinis | `ppt-generator` |
 | [End-to-End Automated Video Production](cases/creative/automated-video-production.md) | Research → script → TTS voiceover → image search → ffmpeg edit → upload to Bilibili, all in one session (200+ tool calls) | @wsvn53 | `bilibili-hub`, `doubao-tts`, ffmpeg |
 | [TikTok Song → YouTube Music Playlist](cases/creative/tiktok-to-ytmusic-playlist.md) | Screenshot TikTok comments with song names, Minis OCRs them and batch-adds all songs to your YouTube Music playlist | @wsvn53 | `ytmusic-hub` |
@@ -69,12 +72,14 @@
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
 | [Photo a Receipt → Auto-Log Expense](cases/finance/receipt-expense-logging.md) | Snap a receipt photo — Minis uses Apple Vision to OCR it, extracts merchant/amount/items, auto-categorizes and logs the expense | Zigzag | Built-in (Vision) |
+| [Stock Technical Analysis with Charts](cases/finance/stock-technical-analysis.md) | Share a stock ticker — Minis scrapes Futu/Yahoo Finance/TradingView, generates K-line + MACD + RSI charts and a full technical analysis report | @wsvn53 | Built-in |
 
 
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
 | [Rescue a Crashed OpenClaw via SSH](cases/developer/openclaw-rescue-ssh.md) | OpenClaw crashed after an update? SSH in from your iPhone, auto-diagnose and restart the service — no laptop needed | @wsvn53 | Built-in (SSH) |
+| [Remote Dev & Architecture Diagram Generation](cases/developer/remote-dev-arch-diagram.md) | SSH into a remote server, scan Swift source files, extract 3-layer architecture, generate diagram via Nano Banana — 2 min, zero intervention | @wsvn53 | Built-in (SSH) |
 | [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers with natural language — check disk, memory, services, run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
 | [Auto-Copy Skills Between Devices/Agents](cases/developer/skill-copy-between-devices.md) | Let Minis detect and copy all skill configs from another AI agent platform and recreate them | 如幻 | Built-in |
 

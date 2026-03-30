@@ -68,6 +68,16 @@ Generate trend charts and a district comparison report.
 
 ---
 
+## 📸 Screenshots
+
+![Minis searches JLL/Winshang/DTZ and runs 19-step analysis on Chengdu vacancy rates](../../assets/screenshots/city-commercial-market-research.jpg)
+
+![Generated multi-chart report: vacancy rate trends, district comparison, retail category breakdown](../../assets/screenshots/city-commercial-market-research-2.jpg)
+
+📷 Shared by @wsvn53 · 2026-02-27
+
+---
+
 ## 👤 贡献者 / Contributor
 
 [@wsvn53](https://x.com/wsvn53) · [原始推文](https://x.com/wsvn53/status/2027237468148511041)
