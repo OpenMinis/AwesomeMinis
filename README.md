@@ -58,6 +58,7 @@
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
+| [Search Torrents & Manage qBittorrent Downloads](cases/creative/torrent-search-qbittorrent.md) | One sentence → Minis searches 7 torrent sites, picks the best version, extracts magnet link, adds to qBittorrent remotely, reports download status | @wsvn53 | exa-search |
 | [Download X/Twitter Videos](cases/creative/x-video-download.md) | Paste an X video link — Minis auto-installs yt-dlp, downloads video+audio streams, merges with ffmpeg, auto-debugs errors | @wsvn53 | Built-in |
 | [Local Video Compression with ffmpeg](cases/creative/video-compression-ffmpeg.md) | Drop a 4K video — Minis detects codec/bitrate, picks optimal H.265 settings, compresses locally. 32 MB → 13.5 MB, 58% smaller, no quality loss | @wsvn53 | Built-in |
 | [One-Click PPT Generator](cases/creative/one-click-ppt-generator.md) | Turn a script or outline into a Jobs-style minimal HTML presentation in seconds | OpenMinis | `ppt-generator` |
