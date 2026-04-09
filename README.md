@@ -54,6 +54,7 @@
 | [Fetch HK News & Generate Chinese HTML Digest](cases/research/hk-news-html-digest.md) | Fetch Hong Kong news articles, translate and summarize in Chinese, output as a formatted HTML digest | meng nimen | Built-in (browser) |
 | [City Commercial Market Research Report](cases/research/city-commercial-market-research.md) | One sentence → Minis searches JLL/Winshang/DTZ, writes analysis scripts, and generates a full market report with charts | @wsvn53 | Built-in |
 | [Tweet Fact-Check: Verify Health Claims](cases/research/tweet-fact-check.md) | Paste any tweet link → Minis fetches the content and cross-checks claims against medical literature, outputs a structured verdict table | @wsvn53 | `twitter-x-hub` |
+| [MacBook Neo Purchase Decision](cases/research/macbook-neo-purchase-decision.md) | One prompt → benchmark ladder (single/multi-core vs all MacBook models), deal-breaker analysis, China subsidy price breakdown, and an AI-generated shareable infographic | OpenMinis | Built-in, `nano-banana-2` |
 
 ## 🎨 Creative & Content
 
