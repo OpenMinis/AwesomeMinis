@@ -105,6 +105,16 @@ Requirements:
 
 ## 📸 Screenshots
 
+**Step 1 · 描述需求，Minis 查阅文档并生成代码**
+
+![User describes widget requirements, Minis reads Scriptable docs and starts generating code](../../assets/screenshots/scriptable-widget-builder-prompt.jpg)
+
+**Step 2 · 口头调色，Minis 直接改文件**
+
+![User asks to tweak colors, Minis edits the JS file with iOS-native blue and warm orange](../../assets/screenshots/scriptable-widget-builder-iterate.jpg)
+
+**Step 3 · 最终效果：主屏小组件**
+
 ![Scriptable widget showing date, calendar events and reminders on iPhone home screen](../../assets/screenshots/scriptable-widget-builder.jpg)
 
 📷 Shared by @XIN · 2026-04-14
