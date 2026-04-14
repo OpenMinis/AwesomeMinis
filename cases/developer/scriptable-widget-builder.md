@@ -14,7 +14,7 @@
 
 完整流程：
 
-1. 在 Minis 中挂载 Scriptable 目录（`mount/scriptable`）
+1. 在 Minis 中挂载 Scriptable 目录（路径为 `/var/minis/mounts/scriptable`）
 2. 描述需求：日历 + 提醒事项双栏小组件，支持大中小三种尺寸，白天/黑夜自动切换
 3. Minis 查阅 Scriptable 官方文档（`docs.scriptable.app`），理解 API
 4. 生成完整 JavaScript 代码，直接写入挂载目录
@@ -33,7 +33,7 @@
 
 ```
 我要做一个 Scriptable 小组件，文档在 https://docs.scriptable.app/，
-文件路径在 mount/scriptable。
+文件路径在 /var/minis/mounts/scriptable。
 
 要求：
 - 自动适配 iOS 大中小三种尺寸
@@ -47,7 +47,7 @@
 
 ### 所需配置
 
-- 在 iOS 文件 App 中将 Scriptable 目录共享给 Minis（挂载为 `mount/scriptable`）
+- 在 iOS 文件 App 中将 Scriptable 目录共享给 Minis（挂载后路径为 `/var/minis/mounts/scriptable`）
 - 安装 [Scriptable](https://apps.apple.com/app/scriptable/id1405459188)（免费）
 
 ---
@@ -64,7 +64,7 @@ Mount the Scriptable folder in Minis, let AI write the widget code, and drop it 
 
 Full flow:
 
-1. Mount the Scriptable directory in Minis (`mount/scriptable`)
+1. Mount the Scriptable directory in Minis (path: `/var/minis/mounts/scriptable`)
 2. Describe what you want: dual-panel widget with calendar + reminders, all 3 sizes, auto dark mode
 3. Minis reads the official Scriptable docs (`docs.scriptable.app`) to understand the API
 4. Generates complete JavaScript, writes it directly into the mounted directory
@@ -84,7 +84,7 @@ Full flow:
 
 ```
 I want to build a Scriptable widget. Docs at https://docs.scriptable.app/,
-file path is mount/scriptable.
+file path is /var/minis/mounts/scriptable.
 
 Requirements:
 - Auto-adapts to iOS small / medium / large sizes
@@ -98,7 +98,7 @@ Requirements:
 
 ### Requirements
 
-- Share the Scriptable folder to Minis via iOS Files app (mounted as `mount/scriptable`)
+- Share the Scriptable folder to Minis via iOS Files app (mounted at `/var/minis/mounts/scriptable`)
 - Install [Scriptable](https://apps.apple.com/app/scriptable/id1405459188) (free)
 
 ---
