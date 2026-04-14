@@ -44,6 +44,7 @@
 | [Schedule Minis Tasks via iOS Shortcuts](cases/productivity/shortcuts-scheduled-task.md) | Use iOS Shortcuts automations to trigger Minis tasks on a schedule — no manual app launch needed | Community | iOS Shortcuts |
 | [Edit Clash Config Without Touching YAML](cases/productivity/clash-config-edit.md) | Drop your Clash config into Minis, say what you want changed — it reads, edits, and outputs a new file with a change summary. Zero YAML editing | @wsvn53 | Built-in |
 | [Remote Control Home Phone to Run Tasks](cases/productivity/remote-control-home-phone.md) | Remotely trigger Minis tasks on your home phone/iPad from anywhere via SSH or network | 朦胧 | Built-in (SSH) |
+| [Course Creation Assistant](cases/productivity/course-creation-assistant.md) | 产品经理用 Minis 完成课程设计、代码和逐字稿 | @sawyer-wang | `project-case-builder`, `video-script-writer` |
 | [Taobao Store Management](cases/productivity/taobao-store-management.md) | Built a complete Taobao toolkit from scratch via SSH — order tracking, price comparison, cart management, buyer chat — zero code knowledge required | Da weiwei | Built-in (SSH + shell) |
 
 ## 🔬 Data & Research
