@@ -70,6 +70,7 @@
 | [Spotify Voice Control](cases/creative/spotify-voice-control.md) | Search songs, skip tracks, and control Spotify playback with a single sentence — no app needed | @wsvn53 | `spotify-hub` |
 | [Read Article Then Auto-Generate Audio](cases/creative/article-read-then-tts.md) | After summarizing an article, automatically generate a matching audio version with doubao-tts and auto-play it | oneasai | `doubao-tts` |
 | [Local Lightweight TTS on Old iPhone](cases/creative/edge-tts-local-voice.md) | Install edge-tts via Minis shell for free, offline TTS — works even on a 64GB iPhone 8 Plus | 小渔 黄 | edge-tts (shell) |
+| [AI Personal Color Analysis](cases/creative/personal-color-analysis-skill.md) | Upload a selfie — Minis determines your 12-season color type and generates a professional diagnosis report with outfit, makeup, hairstyle, and accessory recommendations | 采菇凉滴小蘑菇 | `personal-color-analysis` |
 
 ## 💰 Finance & Tracking
 
