@@ -39,6 +39,7 @@
 | [Push Minis Results to WeChat](cases/productivity/wechat-push-via-openilink.md) | Use openilink-hub middleware to push any Minis output (reports, alerts, summaries) to WeChat | meng nimen | Built-in + openilink-hub |
 | [Group Messages → Auto-Extract to Reminders](cases/productivity/group-messages-to-reminders.md) | Pull Telegram group messages, auto-extract bugs and tasks, deduplicate, and write to Apple Reminders | @wsvn53 | `tg-hub`, Built-in |
 | [Web Page → Apple Notes](cases/productivity/webpage-to-apple-notes.md) | Send any URL to Minis — it fetches, summarizes, and saves structured notes directly to Apple Notes | @wsvn53 | Built-in |
+| [Mount Obsidian Vault as a Minis Knowledge Workspace](cases/productivity/obsidian-notes-mount.md) | Mount your Obsidian vault into Minis, then summarize, clean up, research, and write Markdown notes back into the vault | Open Minis community | Built-in |
 | [Batch Set Complex Alarms](cases/productivity/batch-set-alarms.md) | Describe your entire alarm schedule in one message — Minis creates all of them at once | appinn | Built-in |
 | [Convert Notes & Ideas into Dida Tasks](cases/productivity/todo-from-notes-dida.md) | Dump raw notes or brain dumps to Minis — it extracts and polishes them into tasks and writes them to Dida (TickTick) | SI7gen1 | Custom (Dida API) |
 | [Schedule Minis Tasks via iOS Shortcuts](cases/productivity/shortcuts-scheduled-task.md) | Use iOS Shortcuts automations to trigger Minis tasks on a schedule — no manual app launch needed | Community | iOS Shortcuts |
