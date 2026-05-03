@@ -102,6 +102,10 @@ Typical result:
 
 ## 📸 截图 / Screenshots
 
+First, mount the Obsidian vault as an external folder and enable write access:
+
+![Minis external folder mount settings for an Obsidian vault](../../assets/screenshots/obsidian-notes-mount-settings.png)
+
 Minis can read the mounted Obsidian vault and summarize existing notes:
 
 ![Minis summarizes notes from a mounted Obsidian vault](../../assets/screenshots/obsidian-notes-mount-summary.png)
