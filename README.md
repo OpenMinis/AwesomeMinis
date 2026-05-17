@@ -47,6 +47,7 @@
 | [Remote Control Home Phone to Run Tasks](cases/productivity/remote-control-home-phone.md) | Remotely trigger Minis tasks on your home phone/iPad from anywhere via SSH or network | 朦胧 | Built-in (SSH) |
 | [Course Creation Assistant](cases/productivity/course-creation-assistant.md) | 产品经理用 Minis 完成课程设计、代码和逐字稿 | @sawyer-wang | `project-case-builder`, `video-script-writer` |
 | [Taobao Store Management](cases/productivity/taobao-store-management.md) | Built a complete Taobao toolkit from scratch via SSH — order tracking, price comparison, cart management, buyer chat — zero code knowledge required | Da weiwei | Built-in (SSH + shell) |
+| [WeRead AI Reading Companion](cases/productivity/weread-skill-reading-companion.md) | Connect your WeRead account — browse bookshelf, export highlights, analyze reading habits, and get personalized book recommendations in one conversation | 𝐍𝐢𝐜𝐤𝐢𝐥𝐢𝐬𝐦 | `微信读书` |
 
 ## 🔬 Data & Research
 
