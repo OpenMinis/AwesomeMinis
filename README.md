@@ -10,6 +10,7 @@
 
 ## 📋 Table of Contents
 
+- [English Translations](cases-en/README.md)
 - [Health & Wellness](#-health--wellness)
 - [Productivity & Automation](#-productivity--automation)
 - [Data & Research](#-data--research)
