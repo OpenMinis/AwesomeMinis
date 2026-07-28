@@ -16,6 +16,7 @@
 - [Data & Research](#-data--research)
 - [Creative & Content](#-creative--content)
 - [Finance & Tracking](#-finance--tracking)
+- [Smart Home & IoT](#-smart-home--iot)
 - [Developer Tools](#-developer-tools)
 - [Contributing](#-contributing)
 
@@ -28,6 +29,7 @@
 | [Apple Watch Heart Health Monitor](cases/health/apple-watch-heart-health.md) | Analyze heart rate, HRV, blood oxygen, and ECG data from HealthKit to detect early warning signs and generate a risk report | OpenMinis | `cardiac-health-monitor` |
 | [Photo a Coffee → Auto-Log Caffeine](cases/health/photo-log-caffeine.md) | Take a photo of your coffee, Minis identifies it and automatically logs the caffeine intake to Apple Health | @wsvn53 | Built-in |
 | [Photo Every Meal → Auto-Log Nutrition](cases/health/photo-log-meals.md) | Snap a photo of each meal — Minis identifies dishes, estimates calories/protein/carbs, and logs it all to Apple Health | @infinite_Game_ | Built-in |
+| [Photo + HealthKit: "How Much Did I Walk That Night?"](cases/health/photos-healthkit-vacation-detective.md) | Find a vacation photo by description, then auto cross-reference HealthKit steps/distance for that exact date and time window — chaining Photos, memory, and HealthKit in one pass | MacStories (Federico Viticci) | Built-in |
 
 ## ⚡ Productivity & Automation
 
@@ -49,6 +51,8 @@
 | [Course Creation Assistant](cases/productivity/course-creation-assistant.md) | 产品经理用 Minis 完成课程设计、代码和逐字稿 | @sawyer-wang | `project-case-builder`, `video-script-writer` |
 | [Taobao Store Management](cases/productivity/taobao-store-management.md) | Built a complete Taobao toolkit from scratch via SSH — order tracking, price comparison, cart management, buyer chat — zero code knowledge required | Da weiwei | Built-in (SSH + shell) |
 | [WeRead AI Reading Companion](cases/productivity/weread-skill-reading-companion.md) | Connect your WeRead account — browse bookshelf, export highlights, analyze reading habits, and get personalized book recommendations in one conversation | 𝐍𝐢𝐜𝐤𝐢𝐥𝐢𝐬𝐦 | `微信读书` |
+| [Custom Scheduled Notification with Article Summary](cases/productivity/scheduled-article-notification.md) | Fetch fresh content, then fire a real iOS notification with a custom title and summary body via the native Notification framework — great for pinging you when a long task finishes | MacStories (Federico Viticci) | Built-in |
+| [Location-Aware Detailed Weather Forecast](cases/productivity/location-weather-forecast.md) | Grab your live location and pull a detailed native Apple Weather forecast — hourly table, UV index, feels-like temps, and a practical human-readable takeaway | MacStories (Federico Viticci) | Built-in |
 
 ## 🔬 Data & Research
 
@@ -58,6 +62,7 @@
 | [Fetch HK News & Generate Chinese HTML Digest](cases/research/hk-news-html-digest.md) | Fetch Hong Kong news articles, translate and summarize in Chinese, output as a formatted HTML digest | meng nimen | Built-in (browser) |
 | [City Commercial Market Research Report](cases/research/city-commercial-market-research.md) | One sentence → Minis searches JLL/Winshang/DTZ, writes analysis scripts, and generates a full market report with charts | @wsvn53 | Built-in |
 | [Tweet Fact-Check: Verify Health Claims](cases/research/tweet-fact-check.md) | Paste any tweet link → Minis fetches the content and cross-checks claims against medical literature, outputs a structured verdict table | @wsvn53 | `twitter-x-hub` |
+| [Part-of-Speech Tagging with Apple NLP](cases/research/nlp-article-pos-tagging.md) | Fetch a web article, scrape it to Markdown, then use Apple's on-device Natural Language framework to color-tag every word by part of speech in an interactive HTML report | MacStories (Federico Viticci) | Built-in |
 | [MacBook Neo Purchase Decision](cases/research/macbook-neo-purchase-decision.md) | One prompt → benchmark ladder (single/multi-core vs all MacBook models), deal-breaker analysis, China subsidy price breakdown, and an AI-generated shareable infographic | OpenMinis | Built-in, `nano-banana-2` |
 
 ## 🎨 Creative & Content
@@ -74,6 +79,8 @@
 | [Read Article Then Auto-Generate Audio](cases/creative/article-read-then-tts.md) | After summarizing an article, automatically generate a matching audio version with doubao-tts and auto-play it | oneasai | `doubao-tts` |
 | [Local Lightweight TTS on Old iPhone](cases/creative/edge-tts-local-voice.md) | Install edge-tts via Minis shell for free, offline TTS — works even on a 64GB iPhone 8 Plus | 小渔 黄 | edge-tts (shell) |
 | [AI Personal Color Analysis](cases/creative/personal-color-analysis-skill.md) | Upload a selfie — Minis determines your 12-season color type and generates a professional diagnosis report with outfit, makeup, hairstyle, and accessory recommendations | 采菇凉滴小蘑菇 | `personal-color-analysis` |
+| [Interactive Vacation Photo Map with MapKit](cases/creative/mapkit-vacation-photo-map.md) | Turn scattered vacation photos into a single interactive HTML map artifact — photo pins on real locations via MapKit JS, rendered natively in WKWebView, tappable into Apple Maps | MacStories (Federico Viticci) | Built-in |
+| [Music Library Deep Research](cases/creative/music-library-deep-research.md) | Ask about your Apple Music library the way you'd ask a friend — Minis inspects it via the native Media framework and reasons through misfiled B-sides and partial EPs | MacStories (Federico Viticci) | Built-in |
 
 ## 💰 Finance & Tracking
 
@@ -82,7 +89,13 @@
 | [Photo a Receipt → Auto-Log Expense](cases/finance/receipt-expense-logging.md) | Snap a receipt photo — Minis uses Apple Vision to OCR it, extracts merchant/amount/items, auto-categorizes and logs the expense | Zigzag | Built-in (Vision) |
 | [Stock Technical Analysis with Charts](cases/finance/stock-technical-analysis.md) | Share a stock ticker — Minis scrapes Futu/Yahoo Finance/TradingView, generates K-line + MACD + RSI charts and a full technical analysis report | @wsvn53 | Built-in |
 
+## 🏠 Smart Home & IoT
 
+| Name | Description | By | Skills Used |
+|------|-------------|----|-------------|
+| [Scan Nearby Bluetooth LE Devices](cases/smarthome/bluetooth-nearby-scan.md) | Ask what's around you — Minis scans real nearby Bluetooth LE devices via the native framework and returns a ranked signal-strength table, no separate scanner app needed | MacStories (Federico Viticci) | Built-in |
+
+## 👨‍💻 Developer Tools
 
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
