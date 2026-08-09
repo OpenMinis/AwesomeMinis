@@ -64,7 +64,7 @@
 | [Tweet Fact-Check: Verify Health Claims](cases/research/tweet-fact-check.md) | Paste any tweet link → Minis fetches the content and cross-checks claims against medical literature, outputs a structured verdict table | @wsvn53 | `twitter-x-hub` |
 | [Part-of-Speech Tagging with Apple NLP](cases/research/nlp-article-pos-tagging.md) | Fetch a web article, scrape it to Markdown, then use Apple's on-device Natural Language framework to color-tag every word by part of speech in an interactive HTML report | MacStories (Federico Viticci) | Built-in |
 | [MacBook Neo Purchase Decision](cases/research/macbook-neo-purchase-decision.md) | One prompt → benchmark ladder (single/multi-core vs all MacBook models), deal-breaker analysis, China subsidy price breakdown, and an AI-generated shareable infographic | OpenMinis | Built-in, `nano-banana-2` |
-
+| [Bilibili Content Analyzer](cases/research/bilibili-content-analyzer.md) | Extract full subtitles, metadata, search related videos & hot rankings from any Bilibili video | @hanzhe-one | `bilibili-hub` |
 ## 🎨 Creative & Content
 
 | Name | Description | By | Skills Used |
