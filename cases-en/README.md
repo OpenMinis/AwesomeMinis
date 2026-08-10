@@ -1,6 +1,6 @@
 # AwesomeMinis Cases — English, Current-Skills Edition
 
-This package contains English-only editions of all 40 Markdown cases from:
+This package contains English-only editions of all Markdown cases from:
 
 https://github.com/OpenMinis/AwesomeMinis/tree/main/cases
 
@@ -36,9 +36,9 @@ Notable corrections:
 
 ## Validation
 
-- 40 Markdown case files present
+- 47 Markdown case files present
 - Original category structure preserved
 - Existing root screenshot assets are reused; no image files are duplicated
 - Every local Markdown image link resolves
-- No Chinese/CJK text remains in the Markdown files
+- No Chinese/CJK text remains in the Markdown files, except for contributor names kept in their original language
 - Public skill references validated against the MinisSkills commit above

@@ -1,73 +1,62 @@
-# 将随笔灵感自动转为滴答清单待办
-
-**Convert Notes & Ideas into Dida (TickTick) Tasks**
+# Convert Notes and Ideas into Dida / TickTick Tasks
 
 > 💬 *From the Open Minis community — shared by **SI7gen1** on 2026-03-22*
 
 ---
 
-## 🎯 痛点 / Pain Point
+## 🎯 Pain Point
 
-**中文：** 脑子里的想法和灵感随手记下来后，很难系统整理成可执行的待办事项。
-
-**English:** Random ideas and notes are hard to systematically convert into actionable tasks.
+Ideas, inspirations, and rough notes are easy to jot down, but hard to turn into organized, actionable tasks.
 
 ---
 
-## 💡 做了什么 / What It Does
+## 💡 What It Does
 
-**中文：** 将随手记录的想法、灵感、碎片笔记发给 Minis，它提取并润色成结构化待办事项，通过 Python 脚本自动写入滴答清单（TickTick）。
-
-**English:** Dump raw notes, ideas, or brain dumps to Minis. It extracts and polishes them into structured tasks, then automatically writes them to Dida (TickTick) via a Python script.
+Send your raw notes, ideas, or fragments to Minis. Minis extracts the actionable items, rewrites them into structured tasks, and uses a Python script to add them automatically to Dida / TickTick.
 
 ---
 
-## 🛠 所用技能 / Skills Used
+## 🛠 Skills Used
 
 | Skill | Purpose |
 |-------|---------|
-| `custom skill (dida/ticktick API)` | — |
+| Custom Dida / TickTick integration *(external)* | Add structured tasks to Dida / TickTick; not part of `OpenMinis/MinisSkills` |
 
 ---
 
-## 💬 示例 Prompt / Example Prompt
+## 💬 Example Prompt
 
-**中文：**
-```
-把我下面这些随笔整理成结构化的待办事项，提取关键动作，然后添加到我的滴答清单：
-[随笔内容]
-```
+```text
+Turn the rough notes below into structured tasks, extract the key actions,
+and add them to my Dida / TickTick list:
 
-**English:**
-```
-Turn these rough notes into structured tasks, extract key actions, and add them to my Dida (TickTick) list:
 [notes]
 ```
 
 ---
 
+## ⚙️ Requirements
 
-## ⚙️ 配置要求 / Requirements
-
-- [ ] 滴答清单 API Token 已配置
-- [ ] 自定义 Dida skill 或直接使用 Python 脚本
+- [ ] Obtain and review a current Dida / TickTick API integration; no matching skill exists in `OpenMinis/MinisSkills`
+- [ ] Store its API token in a Minis environment variable, never directly in a prompt or script
+- [ ] Verify the current API terms and endpoints before using the contributor's historical workflow
 
 ---
 
-## 🏷 标签 / Tags
+## 🏷 Tags
 
 `todo` `dida` `ticktick` `notes` `productivity` `automation`
 
 ---
 
-## 👤 贡献者 / Contributor
+## 👤 Contributor
 
-来自 Open Minis Telegram 社区 / From the Open Minis Telegram community
+From the Open Minis Telegram community
 
-原始分享者 / Original sharer: **SI7gen1**
+Original sharer: **SI7gen1**
 
 ---
 
-## 📅 验证时间 / Last Verified
+## 📅 Last Verified
 
 2026-03-22

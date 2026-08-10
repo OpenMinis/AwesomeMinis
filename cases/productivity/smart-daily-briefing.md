@@ -41,22 +41,11 @@ Minis pulls together:
 
 ## 💬 Example Prompt
 
-```
-给我一个今天的早报：
-1. 今天的日历安排
-2. 当前天气和今日预报
-3. 今天最重要的3条科技新闻
-4. 待办提醒事项
-
-最后用一句话总结今天的重点。
-```
-
-Or in English:
-```
+```text
 Give me a morning briefing:
 1. My calendar events for today
 2. Current weather and today's forecast
-3. Top 3 tech news headlines
+3. Top 3 technology news headlines
 4. Pending reminders
 
 End with a one-sentence focus for the day.
@@ -76,8 +65,9 @@ If using TTS, an audio file is generated and plays automatically.
 
 - [x] Calendar permissions granted to Minis
 - [x] Reminders permissions granted to Minis
-- [x] Location permissions (for weather)
-- [ ] `DOUBAO_TTS_APPID` and `DOUBAO_TTS_TOKEN` env vars (only if using TTS)
+- [x] Location permissions granted for weather
+- [ ] For optional TTS, configure `DOUBAO_TTS_API_KEY`; optionally set `DOUBAO_TTS_RESOURCE_ID`
+- [ ] Legacy TTS alternative: configure both `DOUBAO_TTS_APPID` and `DOUBAO_TTS_TOKEN`
 
 ---
 

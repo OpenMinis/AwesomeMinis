@@ -47,10 +47,10 @@
 | [Convert Notes & Ideas into Dida Tasks](cases/productivity/todo-from-notes-dida.md) | Dump raw notes or brain dumps to Minis — it extracts and polishes them into tasks and writes them to Dida (TickTick) | SI7gen1 | Custom (Dida API) |
 | [Schedule Minis Tasks via iOS Shortcuts](cases/productivity/shortcuts-scheduled-task.md) | Use iOS Shortcuts automations to trigger Minis tasks on a schedule — no manual app launch needed | Community | iOS Shortcuts |
 | [Edit Clash Config Without Touching YAML](cases/productivity/clash-config-edit.md) | Drop your Clash config into Minis, say what you want changed — it reads, edits, and outputs a new file with a change summary. Zero YAML editing | @wsvn53 | Built-in |
-| [Remote Control Home Phone to Run Tasks](cases/productivity/remote-control-home-phone.md) | Remotely trigger Minis tasks on your home phone/iPad from anywhere via SSH or network | 朦胧 | Built-in (SSH) |
-| [Course Creation Assistant](cases/productivity/course-creation-assistant.md) | 产品经理用 Minis 完成课程设计、代码和逐字稿 | @sawyer-wang | `project-case-builder`, `video-script-writer` |
+| [Remote Control Home Phone to Run Tasks](cases/productivity/remote-control-home-phone.md) | Remotely trigger Minis tasks on your home phone/iPad from anywhere via SSH or network | Hazy | Built-in (SSH) |
+| [Course Creation Assistant](cases/productivity/course-creation-assistant.md) | Product managers use Minis to build courses end-to-end: design, code, and transcripts | @sawyer-wang | `project-case-builder`, `video-script-writer` |
 | [Taobao Store Management](cases/productivity/taobao-store-management.md) | Built a complete Taobao toolkit from scratch via SSH — order tracking, price comparison, cart management, buyer chat — zero code knowledge required | Da weiwei | Built-in (SSH + shell) |
-| [WeRead AI Reading Companion](cases/productivity/weread-skill-reading-companion.md) | Connect your WeRead account — browse bookshelf, export highlights, analyze reading habits, and get personalized book recommendations in one conversation | 𝐍𝐢𝐜𝐤𝐢𝐥𝐢𝐬𝐦 | `微信读书` |
+| [WeRead AI Reading Companion](cases/productivity/weread-skill-reading-companion.md) | Connect your WeRead account — browse bookshelf, export highlights, analyze reading habits, and get personalized book recommendations in one conversation | 𝐍𝐢𝐜𝐤𝐢𝐥𝐢𝐬𝐦 | External `weread-skills` |
 | [Custom Scheduled Notification with Article Summary](cases/productivity/scheduled-article-notification.md) | Fetch fresh content, then fire a real iOS notification with a custom title and summary body via the native Notification framework — great for pinging you when a long task finishes | MacStories (Federico Viticci) | Built-in |
 | [Location-Aware Detailed Weather Forecast](cases/productivity/location-weather-forecast.md) | Grab your live location and pull a detailed native Apple Weather forecast — hourly table, UV index, feels-like temps, and a practical human-readable takeaway | MacStories (Federico Viticci) | Built-in |
 
@@ -78,8 +78,8 @@
 | [TikTok Song → YouTube Music Playlist](cases/creative/tiktok-to-ytmusic-playlist.md) | Screenshot TikTok comments with song names, Minis OCRs them and batch-adds all songs to your YouTube Music playlist | @wsvn53 | `ytmusic-hub` |
 | [Spotify Voice Control](cases/creative/spotify-voice-control.md) | Search songs, skip tracks, and control Spotify playback with a single sentence — no app needed | @wsvn53 | `spotify-hub` |
 | [Read Article Then Auto-Generate Audio](cases/creative/article-read-then-tts.md) | After summarizing an article, automatically generate a matching audio version with doubao-tts and auto-play it | oneasai | `doubao-tts` |
-| [Local Lightweight TTS on Old iPhone](cases/creative/edge-tts-local-voice.md) | Install edge-tts via Minis shell for free, offline TTS — works even on a 64GB iPhone 8 Plus | 小渔 黄 | edge-tts (shell) |
-| [AI Personal Color Analysis](cases/creative/personal-color-analysis-skill.md) | Upload a selfie — Minis determines your 12-season color type and generates a professional diagnosis report with outfit, makeup, hairstyle, and accessory recommendations | 采菇凉滴小蘑菇 | `personal-color-analysis` |
+| [Local Lightweight TTS on Old iPhone](cases/creative/edge-tts-local-voice.md) | Install the lightweight edge-tts package through the Minis shell; no API key is required, but network access is needed | Xiaoyu Huang | External `edge-tts` package |
+| [AI Personal Color Analysis](cases/creative/personal-color-analysis-skill.md) | Upload a selfie — Minis determines your 12-season color type and generates a professional analysis report with recommendations for outfits, makeup, hairstyles, and accessories | 采菇凉滴小蘑菇 | `personal-color-analysis` |
 | [Interactive Vacation Photo Map with MapKit](cases/creative/mapkit-vacation-photo-map.md) | Turn scattered vacation photos into a single interactive HTML map artifact — photo pins on real locations via MapKit JS, rendered natively in WKWebView, tappable into Apple Maps | MacStories (Federico Viticci) | Built-in |
 | [Music Library Deep Research](cases/creative/music-library-deep-research.md) | Ask about your Apple Music library the way you'd ask a friend — Minis inspects it via the native Media framework and reasons through misfiled B-sides and partial EPs | MacStories (Federico Viticci) | Built-in |
 
@@ -102,7 +102,7 @@
 |------|-------------|----|-------------|
 | [Rescue a Crashed OpenClaw via SSH](cases/developer/openclaw-rescue-ssh.md) | OpenClaw crashed after an update? SSH in from your iPhone, auto-diagnose and restart the service — no laptop needed | @wsvn53 | Built-in (SSH) |
 | [Remote Dev & Architecture Diagram Generation](cases/developer/remote-dev-arch-diagram.md) | SSH into a remote server, scan Swift source files, extract 3-layer architecture, generate diagram via Nano Banana — 2 min, zero intervention | @wsvn53 | Built-in (SSH) |
-| [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers with natural language — check disk, memory, services, run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
+| [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers using natural language—check disk, memory, and services; run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
 
 ---
 

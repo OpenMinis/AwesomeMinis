@@ -1,73 +1,106 @@
 # Course Creation Assistant
-课程设计助手 — 让产品经理也能独立完成一门编程课
 
-🎯 Pain Point
+> Help a product manager design and produce a practical programming course without requiring them to write every document or code sample manually.
+
 ---
-作为产品经理，我想把自己的实战经验整理成课程，但：
-- 不懂开发，难以判断代码是否正确
-- 需要协调文档、代码、逐字稿多个版本
-- 随时有灵感，想快速记录并更新
 
-💡 What It Does
+## 🎯 Pain Point
+
+A product manager may want to turn practical experience into a course but struggle to validate code, coordinate course documents and scripts, and quickly incorporate new ideas.
+
 ---
-Minis 扮演了一个随身的「课程助理」角色：
-- 帮我设计课程结构和章节逻辑
-- 生成配套的代码示例和项目案例
-- 撰写完整的讲解逐字稿
-- 帮我整理运营文档（课程介绍、欢迎语、术语表等）
 
-整个过程中，我只负责决策和验收，具体的文字工作都由 Minis 完成。
+## 💡 What It Does
 
-🛠 Skills Needed
+Minis acts as a course-production assistant:
+
+- Designs the course structure and chapter sequence
+- Generates project examples and supporting code
+- Writes lesson scripts
+- Produces course descriptions, welcome messages, glossaries, and FAQs
+- Runs and reviews generated examples before presenting them as ready to teach
+
+The user remains responsible for product decisions, subject-matter accuracy, and final acceptance.
+
 ---
-| Skill | Purpose |
-|---|---|
-| project-case-builder | 生成项目案例代码 |
-| video-script-writer | 编写视频逐字稿 |
-| project-reviewer | 评审代码质量 |
 
-📋 How to Use
+## 🛠 Skills and Capabilities
+
+| Skill or capability | Purpose | Availability |
+|---------------------|---------|--------------|
+| Built-in file and coding tools | Write, run, test, and revise course examples | Built into Minis |
+| `project-case-builder` | Generate project examples | Contributor-provided custom skill; not currently in public MinisSkills |
+| `video-script-writer` | Write lesson scripts | Contributor-provided custom skill; not currently in public MinisSkills |
+| `project-reviewer` | Review code quality | Contributor-provided custom skill; not currently in public MinisSkills |
+
+The workflow does not require those three custom skills. Minis can perform the same bounded tasks with built-in coding, file, and testing tools. Do not describe the custom skills as publicly installable unless their source is supplied.
+
 ---
-1. **明确课程定位** — 先和 Minis 讨论你的目标受众、课程目标、差异化
-2. **设计课程结构** — 让 Minis 帮你规划章节、每章的核心知识点
-3. **生成核心内容** — 按章节让 Minis 生成代码、逐字稿、项目案例
-4. **运营文档** — 让 Minis 帮你整理课程介绍、术语表、FAQ 等
-5. **迭代优化** — 随时把新想法告诉 Minis，生成更新的版本
 
-💬 Example Prompt
+## 📋 How to Use
+
+1. Define the audience, course goal, prerequisites, and differentiator.
+2. Design the chapter sequence and learning objectives.
+3. Generate one chapter at a time, including code, exercises, and lesson script.
+4. Run and test every code sample before accepting it.
+5. Generate operating material such as the course description, glossary, and FAQ.
+6. Version each revision so later changes remain traceable.
+
 ---
-> 我是一个产品经理，想做一门面向零基础学员的 Python 课程，目标是让他们能开始「vibe coding」。课程大约 6 章，每章一个实战项目。请帮我设计课程结构。
 
-（后续）
-> 请用 project-case-builder 技能，为第 1 章设计一个「天气查询小工具」的项目案例。
+## 💬 Example Prompts
 
-（后续）
-> 请用 video-script-writer 技能，为这一章写一份逐字稿，时长约 15 分钟。
+```text
+I am a product manager creating a six-chapter Python course for complete beginners.
+The goal is to help students start vibe coding. Each chapter must contain one
+practical project. Design the course structure, prerequisites, learning objectives,
+and an observable completion check for each chapter.
+```
 
-📤 Expected Output
+```text
+Create the chapter-one weather lookup project. Write the runnable code and tests,
+execute the tests, then write a 15-minute teaching script that explains the verified implementation.
+```
+
 ---
-- 课程结构：6-7 个章节，每个章节有明确的学习目标
-- 每章代码：可直接运行的 Python/HTML 示例文件
-- 每章逐字稿：详细的讲解话术，包含互动提示
-- 运营文档：课程介绍、欢迎语、术语表等
 
-⏱ 预计耗时：3-5 小时（完成 6 章全部内容）
+## 📤 Expected Output
 
-⚙️ Configuration / Requirements
+- Six or seven chapters with clear learning objectives
+- Runnable and tested Python or HTML examples
+- Detailed lesson scripts with interaction prompts
+- Course description, welcome message, glossary, and FAQ
+- Versioned revisions
+
 ---
-- 无需特殊配置
-- 建议在开始前准备好课程大纲和目标受众描述
 
-💡 Tips & Variations
----
-- **角色定位**：明确告诉 Minis「你是一个产品经理视角的老师」，这样生成的内容更符合教学需求
-- **版本管理**：让 Minis 在每次更新后标注版本号，方便追踪迭代
-- **复用模板**：建立自己的课程模板库，后续做新课程时可以快速复用
+## ⚙️ Requirements
 
-👤 Author
----
-Submitted by: @sawyer-wang
+- [ ] No public repository skill is required
+- [ ] Prepare a target-audience description and initial course goal
+- [ ] If using the contributor's custom skills, obtain them from their original source and review them before installation
 
-📅 Last Verified
 ---
+
+## 💡 Tips
+
+- Define the teaching perspective and expected student background explicitly.
+- Ask Minis to preserve version numbers and a concise change log.
+- Build reusable chapter and lesson-script templates.
+- Treat generated code as unverified until it has been executed and tested.
+
+---
+
+## 👤 Author
+
+Submitted by **@sawyer-wang**
+
+---
+
+## 📅 Case Last Verified
+
 2026-04
+
+## 🔄 Skill Catalog Check
+
+Checked against `OpenMinis/MinisSkills` commit `3993f5ab0a0ff204d774da7a5cf27ea281e7b021` on 2026-07-27.
