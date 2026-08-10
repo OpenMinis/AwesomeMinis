@@ -1,35 +1,33 @@
-# Mount Obsidian Vault as a Minis Knowledge Workspace
-
-**把 Obsidian 笔记库挂载到 Minis，变成可读写的 AI 知识工作区**
+# Mount the Obsidian note library to Minis and turn it into a readable and writable AI knowledge workspace
 
 > 💬 *Real-world workflow: mount an Obsidian vault into Minis, then ask Minis to summarize, clean up, research, and write structured notes directly back into the vault.*
 
 ---
 
-## 🎯 痛点 / Pain Point
+## 🎯 Pain Point
 
-**中文：** Obsidian 很适合长期沉淀知识，但移动端整理笔记仍然很麻烦：碎片笔记要手动归档，网页资料要手动复制整理，重复的测试笔记要自己清理。AI 聊天里生成的内容也常常停留在聊天记录中，没有进入真正的知识库。
+Obsidian is very suitable for long-term accumulation of knowledge, but it is still troublesome to organize notes on the mobile terminal: fragmented notes need to be manually archived, webpage materials need to be manually copied and organized, and duplicate test notes need to be cleaned up by yourself. The content generated in AI chat often stays in the chat history and does not enter the real knowledge base.
 
-**English:** Obsidian is great for long-term knowledge management, but organizing notes on mobile is still tedious: rough notes need cleanup, web research needs manual copying, test files need pruning, and AI-generated summaries often stay trapped in chat instead of becoming part of your real vault.
-
----
-
-## 💡 做了什么 / What It Does
-
-**中文：** 通过 Minis 的外部文件夹挂载能力，把 Obsidian vault 挂载到 `/var/minis/mounts/Notes/`。之后 Minis 可以像操作本地文件一样读取、总结、删除、改写和新建 Markdown 笔记。用户只需要用自然语言说：
-
-- “看看我的挂载笔记有哪些”
-- “总结一下我的笔记内容”
-- “删掉那些测试的毫无意义的笔记”
-- “帮我研究 Hermes Agent，整理成笔记存起来”
-
-Minis 会直接扫描 Obsidian 目录，处理 Markdown 文件，并把新笔记写回 vault，Obsidian 里立即可见。
-
-**English:** Use Minis' external folder mounting to mount an Obsidian vault at `/var/minis/mounts/Notes/`. Minis can then read, summarize, delete, edit, and create Markdown notes just like local files. You can simply ask in natural language, and the result is written back to the vault where Obsidian can see it immediately.
+Obsidian is great for long-term knowledge management, but organizing notes on mobile is still tedious: rough notes need cleanup, web research needs manual copying, test files need pruning, and AI-generated summaries often stay trapped in chat instead of becoming part of your real vault.
 
 ---
 
-## 🛠 所用技能 / Skills Used
+## 💡 What It Does
+
+Mount Obsidian vault to `/var/minis/mounts/Notes/` through Minis’ external folder mounting capability. Afterwards, Minis can read, summarize, delete, rewrite and create new Markdown notes just like operating local files. Users only need to say in natural language:
+
+- "See what my mount notes are"
+- "Summarize the contents of my notes"
+- "Delete those pointless notes from the test"
+- "Help me research Hermes Agent, organize it into notes and save them"
+
+Minis will directly scan the Obsidian directory, process the Markdown files, and write new notes back to the vault, which will be immediately visible in Obsidian.
+
+Use Minis' external folder mounting to mount an Obsidian vault at `/var/minis/mounts/Notes/`. Minis can then read, summarize, delete, edit, and create Markdown notes just like local files. You can simply ask in natural language, and the result is written back to the vault where Obsidian can see it immediately.
+
+---
+
+## 🛠 Skills Used
 
 | Skill | Purpose |
 |-------|---------|
@@ -40,67 +38,65 @@ Minis 会直接扫描 Obsidian 目录，处理 Markdown 文件，并把新笔记
 
 ---
 
-## 📋 使用步骤 / How to Use
+## 📋 How to Use
 
-1. **准备 Obsidian vault** — 在手机本地或云同步目录里准备一个 Obsidian 笔记库，例如 `Notes/`。
-2. **在 Minis 挂载目录** — 打开 Minis 设置里的 external folder mounting，把这个 Obsidian vault 挂载进 Minis。
-3. **确认路径** — Minis 会在 `/var/minis/mounts/` 下看到挂载目录，例如 `/var/minis/mounts/Notes/`。
-4. **让 Minis 扫描笔记** — 直接问：“看看我的挂载的笔记有哪些”。
-5. **让 Minis 总结或清理** — 例如：“总结一下我的笔记内容”“删掉测试笔记”。
-6. **让 Minis 写入新笔记** — 例如：“帮我收集 Hermes Agent 的资料，总结成笔记存起来”。
-7. **回到 Obsidian 查看** — 新建或修改后的 `.md` 文件会出现在 Obsidian vault 中。
-
----
-
-## 💬 示例 Prompt / Example Prompts
-
-**列出 vault 中的笔记：**
-
-```text
-看看我的挂载的笔记有哪些
-```
-
-**总结现有笔记：**
-
-```text
-总结一下我的笔记内容
-```
-
-**清理无意义测试笔记：**
-
-```text
-删掉那些测试的毫无意义的笔记。
-```
-
-**研究一个主题并保存到 Obsidian：**
-
-```text
-帮我收集一下最近比较火热的 Hermes Agent，研究一下它最重要的一些使用场景，以及它的最大的特点，相比 OpenClaw 最大的特点是什么？总结成笔记存起来。
-```
+1. **Prepare Obsidian vault** — Prepare an Obsidian note library in the local phone or cloud synchronization directory, such as `Notes/`.
+2. **Mount directory in Minis** — Open the external folder mounting in Minis settings and mount the Obsidian vault into Minis.
+3. **Confirm path** — Minis will see the mount directory under `/var/minis/mounts/`, for example `/var/minis/mounts/Notes/`.
+4. **Let Minis scan notes** — Just ask: "See what my mounted notes are."
+5. **Ask Minis to summarize or clean up** - For example: "Summarize the content of my notes" "Delete test notes".
+6. **Ask Minis to write new notes** - For example: "Help me collect information about Hermes Agent, summarize it into notes and save it."
+7. **Go back to Obsidian to view** — The new or modified `.md` file will appear in the Obsidian vault.
 
 ---
 
-## 📤 预期结果 / Expected Output
+## 💬 Example Prompts
 
-Minis 会直接操作 Obsidian vault 里的 Markdown 文件，例如：
+**List notes in vault:**
 
-- 列出当前 vault 中的笔记文件
-- 阅读并总结已有笔记内容
-- 删除用户确认不要的测试文件
-- 抓取网页资料并整理成结构化 Markdown
-- 将新笔记保存为 `Hermes Agent 研究笔记.md`
-- 在聊天里返回可点击的 Minis 文件链接
-- 回到 Obsidian 后可以看到同一份新笔记
+```text
+See what my mounted notes are
+```
+
+**Summary of existing notes:**
+
+```text
+To summarize the content of my notes
+```
+
+**Clean up meaningless test notes:**
+
+```text
+Delete those pointless notes from the test.
+```
+
+**Research a topic and save it to Obsidian:**
+
+```text
+Help me collect the recently popular Hermes Agent, study some of its most important usage scenarios, and its biggest features. What are its biggest features compared to OpenClaw? Summarize it into notes and save it.
+```
+
+---
+
+## 📤 Expected Output
+
+- List note files in the current vault
+- Read and summarize existing notes
+- Delete test files that the user confirms do not want
+- Capture web page data and organize it into structured Markdown
+- Save the new note as `Hermes Agent Research Notes.md`
+- Return clickable Minis file links in chat
+- Return to Obsidian to see the same new note
 
 Typical result:
 
 ```text
-已完成，并保存成笔记：Hermes Agent 研究笔记.md
+Completed and saved as note: Hermes Agent Research Notes.md
 ```
 
 ---
 
-## 📸 截图 / Screenshots
+## 📸 Screenshots
 
 First, mount the Obsidian vault as an external folder and enable write access:
 
@@ -124,26 +120,26 @@ The same Markdown note is immediately visible in Obsidian:
 
 ---
 
-## ⚙️ 配置要求 / Requirements
+## ⚙️ Requirements
 
-- [ ] Minis 支持 external folder mounting
-- [ ] 已在系统文件选择器中授权 Minis 访问 Obsidian vault
-- [ ] Obsidian vault 中的笔记以 Markdown `.md` 文件保存
-- [ ] 如需联网研究主题，需要 Minis 浏览器/网络访问可用
+- [ ] Minis support external folder mounting
+- [ ] Minis have been authorized to access the Obsidian vault in the system file picker
+- [ ] Notes in Obsidian vault are saved as Markdown `.md` files
+- [ ] If you want to study the topic online, Minis browser/network access is required
 
 ---
 
 ## 💡 Tips & Variations
 
-- **先总结再清理**：让 Minis 先概览 vault，再决定哪些文件可以删除，避免误删。
-- **按主题建文件名**：可以要求 Minis 使用固定命名规则，如 `YYYY-MM-DD 主题.md`。
-- **适合资料研究**：把“搜索 → 阅读 → 提炼 → 存 Markdown”的流程直接变成 Obsidian 入库流程。
-- **适合移动端知识管理**：不用在手机上反复复制粘贴，Minis 可以直接写入 vault。
-- **谨慎删除**：删除前可以要求 Minis 先列出候选文件并等待确认。
+- **Summary first and then clean up**: Let Minis overview the vault first and then decide which files can be deleted to avoid accidental deletion.
+- **Create file name by theme**: You can ask Minis to use fixed naming rules, such as `YYYY-MM-DD theme.md`.
+- **Suitable for data research**: Turn the process of "search → read → refine → save Markdown" directly into the Obsidian storage process.
+- **Suitable for mobile knowledge management**: No need to copy and paste repeatedly on the mobile phone, Minis can be written directly to the vault.
+- **Delete with caution**: You can ask Minis to list candidate files and wait for confirmation before deleting.
 
 ---
 
-## 👤 贡献者 / Contributor
+## 👤 Contributor
 
 Submitted by: Open Minis community
 

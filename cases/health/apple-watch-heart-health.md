@@ -1,92 +1,88 @@
-# Apple Watch Heart Health Monitor
+# Apple Watch Heart Health Analysis
 
-> Analyze your Apple Watch health data to detect early warning signs of cardiac issues and generate a personalized risk report with charts.
+> Analyze recent Apple Watch health data and generate a risk-oriented report with trends and caveats.
 
 ---
 
 ## 🎯 Pain Point
 
-Most Apple Watch users only glance at their heart rate occasionally. The real value — HRV trends, resting heart rate changes, blood oxygen dips during sleep — is buried in the Health app with no interpretation. Without context, numbers like "HRV: 42ms" mean nothing.
+Apple Watch health data such as HRV, resting heart rate, blood oxygen, and respiratory rate is difficult to interpret without context. Individual readings rarely explain whether a change is meaningful.
 
 ---
 
 ## 💡 What It Does
 
-Minis reads 30 days of HealthKit data (heart rate, HRV, blood oxygen, respiratory rate) and runs a three-tier risk analysis:
+Minis reads recent HealthKit data and organizes it into a three-level review:
 
-- 🔴 **Urgent signals** — irregular rhythm, ECG anomalies, extreme heart rate during exercise
-- 🟡 **Early warnings** — HRV dropping >30% over 3 days, resting HR rising >10 bpm, nighttime SpO₂ < 95%
-- 🟢 **Long-term trends** — 3-month HRV decline, consistently elevated respiratory rate
+- 🔴 **Potentially urgent signals:** irregular rhythm notifications, ECG anomalies, or extreme exercise heart rates
+- 🟡 **Early warnings:** sharp HRV decline, rising resting heart rate, or repeated low nighttime oxygen readings
+- 🟢 **Long-term trends:** sustained changes in HRV, resting heart rate, or respiratory rate
 
-It generates a visual report with trend charts and actionable recommendations.
+The output can include trend charts, flagged dates, and plain-language recommendations. This is an informational analysis, not a diagnosis. Concerning symptoms or alerts require a qualified clinician.
 
 ---
 
-## 🛠 Skills Needed
+## 🛠 Skills and Capabilities
 
-| Skill | Purpose |
-|-------|---------|
-| `cardiac-health-monitor` | Reads HealthKit data, runs risk analysis, generates charts |
+| Skill or capability | Purpose | Availability |
+|---------------------|---------|--------------|
+| Built-in `apple-healthkit` | Read heart rate, HRV, oxygen saturation, respiratory rate, ECG, and related HealthKit data | Built into Minis |
+| Built-in shell + Python | Aggregate data and generate charts | Built into Minis |
+| `cardiac-health-monitor` | Contributor's reusable cardiac analysis workflow | Not currently in the public MinisSkills repository |
+
+The public repository contains `health-sleep-analysis`, but it focuses on sleep and is not an equivalent replacement for `cardiac-health-monitor`.
 
 ---
 
 ## 📋 How to Use
 
-1. Make sure your Apple Watch is synced and HealthKit data is up to date
-2. Open Minis and start a new conversation
-3. Paste the prompt below
+1. Make sure Apple Watch data has synchronized to Apple Health.
+2. Grant Minis read access to the requested HealthKit types.
+3. Ask Minis to fetch the data in one `apple-healthkit batch` request and analyze it.
 
 ---
 
 ## 💬 Example Prompt
 
-```
-帮我做一次心脏健康分析，读取我最近30天的 Apple Watch 数据，
-包括心率、HRV、血氧和呼吸频率，生成风险评估报告和趋势图表。
-```
-
-Or in English:
-```
-Run a cardiac health analysis using my last 30 days of Apple Watch data.
-Include heart rate, HRV, blood oxygen, and respiratory rate.
-Generate a risk assessment report with trend charts.
+```text
+Read my last 30 days of Apple Watch data in one HealthKit batch request.
+Include heart rate, resting heart rate, HRV, oxygen saturation, respiratory rate,
+and any available irregular-rhythm or ECG events. Generate trend charts and a
+risk-oriented summary. Clearly distinguish observed data from inference and include
+a medical disclaimer.
 ```
 
 ---
 
 ## 📤 Expected Output
 
-- A risk level badge (🔴 / 🟡 / 🟢)
-- Trend charts for HRV, resting heart rate, and blood oxygen
-- Specific dates/events flagged as anomalies
-- Plain-language recommendations (e.g., "Your HRV dropped 35% over the last 3 days — consider rest and stress reduction")
-
-Takes approximately 30–60 seconds to generate.
-
----
-
-## ⚙️ Configuration / Requirements
-
-- [x] Apple Watch paired and synced
-- [x] HealthKit permissions granted to Minis (Heart Rate, HRV, Blood Oxygen, Respiratory Rate)
-- [x] `cardiac-health-monitor` skill installed
+- A clearly explained risk level
+- HRV, resting-heart-rate, and oxygen-saturation trend charts
+- Dates and events flagged as anomalies
+- Plain-language recommendations and uncertainty
+- A reminder that the analysis is not medical diagnosis
 
 ---
 
-## 💡 Tips & Variations
+## ⚙️ Requirements
 
-- **Weekly check-in**: Run this every Monday morning as a health check-in ritual
-- **After illness**: Run after recovering from a cold or flu to see how your HRV recovers
-- **Variation**: Ask for a comparison between this month and last month
+- [x] Apple Watch paired and synchronized
+- [x] HealthKit permissions granted for every requested data type
+- [ ] No public `cardiac-health-monitor` installation is required; use built-in `apple-healthkit` and analysis tools
+- [ ] Optional: obtain the contributor's custom `cardiac-health-monitor` skill from its original source, if available
 
 ---
 
 ## 👤 Author
 
-Submitted by: [@OpenMinis](https://github.com/OpenMinis)
+Submitted by [@OpenMinis](https://github.com/OpenMinis)
 
 ---
 
-## 📅 Last Verified
+## 📅 Case Last Verified
 
 2026-03
+
+## 🔄 Skill Catalog Check
+
+Checked against `OpenMinis/MinisSkills` commit `3993f5ab0a0ff204d774da7a5cf27ea281e7b021` on 2026-07-27.

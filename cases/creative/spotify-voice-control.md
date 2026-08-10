@@ -1,77 +1,63 @@
-# Spotify 语音控制：搜歌、切歌、一气呵成
-
-**Spotify Voice Control: Search, Switch, Play**
+# Spotify Voice Control: Search, Switch, Play
 
 > 💬 *From [@wsvn53](https://x.com/wsvn53) · 2026-03-22 / appinn.com · 2026-03-28*
 
 ---
 
-## 🎯 痛点 / Pain Point
+## 🎯 Pain Point
 
-**中文：** 开车或做事时想换歌，解锁手机、打开 Spotify、搜索、点击——步骤太多，分心又危险。
-
-**English:** When driving or busy, switching songs means unlocking your phone, opening Spotify, searching, tapping — too many steps, distracting and potentially dangerous.
+When driving or busy, switching songs means unlocking your phone, opening Spotify, searching, tapping — too many steps, distracting and potentially dangerous.
 
 ---
 
-## 💡 做了什么 / What It Does
+## 💡 What It Does
 
-**中文：** 对 Minis 说一句话，它通过 `spotify-hub` Skill 完成搜索、播放、切歌、调音量等操作，无需打开 Spotify App。
-
-**English:** Say one sentence to Minis, and it uses the `spotify-hub` skill to search, play, skip, or adjust volume — without ever opening the Spotify app.
+Say one sentence to Minis, and it uses the `spotify-hub` skill to search, play, skip, or adjust volume — without ever opening the Spotify app.
 
 ---
 
-## 🛠 所用技能 / Skills Used
+## 🛠 Skills Used
 
 | Skill | Purpose |
 |-------|---------|
-| `spotify-hub` | 控制 Spotify 播放 / Control Spotify playback |
+| `spotify-hub` | Search for music and control Spotify playback |
 
 ---
 
-## 💬 示例 Prompt / Example Prompt
+## 💬 Example Prompts
 
-**中文：**
-```
-播放周杰伦的《晴天》
-```
-```
-切到下一首
-```
-```
-搜索一些适合下雨天的爵士乐，随机播放
+```text
+Play "Sunny Day" by Jay Chou.
 ```
 
-**English:**
+```text
+Skip to the next track.
 ```
-Play "Sunny Day" by Jay Chou
-```
-```
-Skip to the next track
-```
-```
-Search for some rainy-day jazz and shuffle play
+
+```text
+Search for rainy-day jazz and start shuffle playback.
 ```
 
 ---
 
 
-## 📸 截图 / Screenshots
+## 📸 Screenshots
 
 ![Screenshot](../../assets/screenshots/spotify-voice-control.jpg)
 
-*📷 说「换首歌」→ Minis 切换 Apink 歌曲，当前播放 Love Me More · @wsvn53 · 2026-03-22*
+*📷 Say “change the song” → Minis switches to Apink's “Love Me More” · @wsvn53 · 2026-03-22*
 
-## ⚙️ 配置要求 / Requirements
+## ⚙️ Requirements
 
-- [ ] `spotify-hub` skill 已安装
-- [ ] Spotify Premium 账号（免费版不支持 API 控制播放）
-- [ ] `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` 环境变量已配置
+- [ ] `spotify-hub` skill installed
+- [ ] Spotify Premium account; Web API playback control is unavailable on Free accounts
+- [ ] `SPOTIPY_CLIENT_ID`, `SPOTIPY_CLIENT_SECRET`, and `SPOTIPY_REDIRECT_URI` configured; use `http://127.0.0.1:8888/callback` as the redirect URI
+- [ ] Complete the one-time Spotify OAuth authorization flow
+- [ ] Keep at least one Spotify playback device active
 
 ---
 
-## 👤 贡献者 / Contributor
+## 👤 Contributor
 
 [@wsvn53](https://x.com/wsvn53) · [appinn.com](https://www.appinn.com/iphone-automation-11-real-use-cases/)
 

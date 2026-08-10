@@ -71,7 +71,7 @@ Analyze my personal color season and generate a color diagnosis card and style r
 
 From the Open Minis Telegram community
 
-Original sharer: **Mushroom Picking Girl**
+Original sharer: **采菇凉滴小蘑菇**
 
 ---
 

@@ -2,33 +2,6 @@
 
 > **By @wsvn53 · Feb 27, 2026** · [Original Tweet](https://x.com/wsvn53/status/2027261270542713040)
 
-## 🇨🇳 中文
-
-### 痛点
-
-X 上的视频没有官方下载按钮，第三方下载网站要么有广告、要么失效、要么不支持高清。
-
-### 做了什么
-
-把 X 视频链接直接丢给 Minis，Minis 自动调用 yt-dlp 下载视频和音频流，用 ffmpeg 合并，遇到报错自己 debug 自己修，下载完直接给文件链接。
-
-截图里的完整流程：
-1. 发送 X 视频链接：「Help me download this video」
-2. 检查 yt-dlp 是否已安装
-3. 从 X/Twitter 下载视频（遇到文件名特殊字符报错 → 自动换简单文件名重试）
-4. 检查 ffmpeg 可用性 → 列出临时文件
-5. 合并视频和音频流 ✅ 6/6
-
-### 示例 Prompt
-
-```
-Help me download this video: https://x.com/xxx/status/xxx
-```
-
----
-
-## 🇺🇸 English
-
 ### Pain Point
 
 X has no official video download button. Third-party sites are full of ads, break frequently, or don't support HD.

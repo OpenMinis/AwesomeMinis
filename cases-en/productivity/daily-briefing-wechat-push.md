@@ -18,11 +18,11 @@ Uses Minis on iPad with a scheduled task to fetch weather and news, then pushes 
 
 ## 🛠 Skills Used
 
-| Skill | Purpose |
-|-------|---------|
+| Platform capability | Purpose |
+|---------------------|---------|
 | Built-in `apple-weather` | Fetch the local weather and forecast |
-| iOS Shortcuts automation | Trigger the workflow on a schedule |
-| `openilink-hub` *(external middleware)* | Push the briefing to WeChat; not part of `OpenMinis/MinisSkills` |
+| iOS Shortcuts automation *(Apple platform capability, not a MinisSkills skill)* | Trigger the workflow on a schedule |
+| `openilink-hub` *(external middleware, not a MinisSkills skill)* | Push the briefing to WeChat |
 
 ---
 

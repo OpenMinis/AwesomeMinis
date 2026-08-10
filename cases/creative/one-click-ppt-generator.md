@@ -1,50 +1,49 @@
-# One-Click PPT Generator
+# One-Click HTML Presentation Generator
 
-> Turn a script, outline, or rough notes into a polished, Jobs-style minimal HTML presentation — ready to present in seconds.
+> Turn a script, outline, or rough notes into a polished, Jobs-style minimalist HTML presentation.
 
 ---
 
 ## 🎯 Pain Point
 
-Writing a presentation takes hours: picking a template, formatting slides, adjusting layouts. Even with AI tools you're still dragging boxes around in Keynote or PowerPoint. What if you could just paste your content and get a presentation?
+Creating a presentation takes hours of template selection, slide formatting, and layout adjustments. Even with AI tools, you often still need to move elements manually in Keynote or PowerPoint.
 
 ---
 
 ## 💡 What It Does
 
-Minis takes your script or outline and generates a single self-contained HTML file styled as a minimalist, dark-mode tech presentation (inspired by Steve Jobs' keynote aesthetic). Each slide is a full-screen section with large typography, one key idea per slide, and smooth transitions.
+Minis can turn a script or outline into one self-contained HTML file styled as a dark, minimalist technology presentation. Each slide is a full-screen section with large typography, one main idea, and smooth transitions.
 
-The output is a single `.html` file you can open in any browser, share as a link, or screenshot for social media.
+The result opens in any browser, works offline, can be shared as a file, and can be captured for social media.
 
 ---
 
-## 🛠 Skills Needed
+## 🛠 Skills and Capabilities
 
-| Skill | Purpose |
-|-------|---------|
-| `ppt-generator` | Converts content into a styled HTML presentation |
+| Skill or capability | Purpose | Availability |
+|---------------------|---------|--------------|
+| Built-in HTML/CSS generation and file tools | Create the self-contained presentation | Built into Minis |
+| `ppt-generator` | Contributor's reusable presentation workflow | Not currently in the public MinisSkills repository |
+
+The public `OpenMinis/MinisSkills` repository does not currently contain `ppt-generator`. This case still works without it by asking Minis to generate the HTML directly. Do not describe the missing custom skill as publicly installable unless its source is provided.
 
 ---
 
 ## 📋 How to Use
 
-1. Prepare your content — a script, bullet points, or even a rough brain dump
-2. Open Minis and paste the prompt below with your content
-3. Minis generates the HTML file — tap the link to preview it instantly
+1. Prepare a script, outline, bullet list, or rough notes.
+2. Ask Minis to create a self-contained HTML presentation.
+3. Tap the generated HTML file to preview it in Minis.
 
 ---
 
 ## 💬 Example Prompt
 
-```
-帮我把下面的讲稿生成一份乔布斯风格的极简竖屏演示文稿：
-
-[粘贴你的讲稿内容]
-```
-
-Or in English:
-```
-Turn the following outline into a Jobs-style minimal presentation:
+```text
+Turn the following outline into a Jobs-style minimalist presentation.
+Create one self-contained HTML file with a dark background, large white type,
+one main idea per slide, smooth transitions, and a mobile-friendly vertical layout.
+Do not use external dependencies.
 
 [paste your content here]
 ```
@@ -54,37 +53,41 @@ Turn the following outline into a Jobs-style minimal presentation:
 ## 📤 Expected Output
 
 A single `.html` file with:
-- Dark background, large white typography
+
+- Dark background and large white typography
 - One key message per slide
-- Smooth CSS transitions between slides
+- Smooth CSS transitions
 - Mobile-friendly vertical layout
-- No external dependencies — works offline
-
-Preview it directly in Minis by tapping the file link.
+- No external dependencies
 
 ---
 
-## ⚙️ Configuration / Requirements
+## ⚙️ Requirements
 
-- [x] `ppt-generator` skill installed
-- [ ] No API keys or special permissions needed
+- [ ] No public repository skill is required; Minis can generate the HTML with built-in file and web capabilities
+- [ ] Optional: obtain the contributor's custom `ppt-generator` skill from its original source, if available
+- [ ] No API keys or special permissions required
 
 ---
 
-## 💡 Tips & Variations
+## 💡 Tips
 
-- **For demos**: Add "include a live demo slide with a QR code linking to X" in your prompt
-- **For social**: Ask Minis to screenshot each slide individually for Instagram/Xiaohongshu posts
-- **Language**: Works equally well in Chinese and English
+- For demos, request a slide with a QR code linking to the demo.
+- For social media, ask Minis to capture each slide separately.
+- Specify the output language in the prompt.
 
 ---
 
 ## 👤 Author
 
-Submitted by: [@OpenMinis](https://github.com/OpenMinis)
+Submitted by [@OpenMinis](https://github.com/OpenMinis)
 
 ---
 
-## 📅 Last Verified
+## 📅 Case Last Verified
 
 2026-03
+
+## 🔄 Skill Catalog Check
+
+Checked against `OpenMinis/MinisSkills` commit `3993f5ab0a0ff204d774da7a5cf27ea281e7b021` on 2026-07-27.

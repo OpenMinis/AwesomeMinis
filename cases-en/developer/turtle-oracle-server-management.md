@@ -1,6 +1,6 @@
 # Managing Oracle Free-Tier Servers with Minis
 
-> 💬 *From the Open Minis community — shared by **picking mushrooms and cooling drops of small mushrooms** on 2026-03-27*
+> 💬 *From the Open Minis community — shared by **采菇凉滴小蘑菇** on 2026-03-27*
 
 ---
 
@@ -36,13 +36,13 @@ SSH into my Oracle server at [IP], check disk usage, memory, and running service
 
 ## 📸 Screenshots
 
-![Screenshot by pick mushrooms and cool drops of small mushrooms](../../assets/screenshots/turtle-oracle-server-management.jpg)
+![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management.jpg)
 
-*📷 Shared by ** Picking Mushrooms Liangdi Little Mushrooms ** · 2026-03-27* — Minis SSH View server firewall status
+*📷 Shared by ** 采菇凉滴小蘑菇 ** · 2026-03-27* — Minis SSH View server firewall status
 
-![Screenshot by pick mushrooms and cool drops of small mushrooms](../../assets/screenshots/turtle-oracle-server-management-2.jpg)
+![Screenshot by 采菇凉滴小蘑菇](../../assets/screenshots/turtle-oracle-server-management-2.jpg)
 
-*📷 Shared by **picking mushrooms, cold dripping small mushrooms** · 2026-03-27* — SSH connection to Oracle server
+*📷 Shared by **采菇凉滴小蘑菇** · 2026-03-27* — SSH connection to Oracle server
 
 ## ⚙️ Requirements
 
@@ -61,7 +61,7 @@ SSH into my Oracle server at [IP], check disk usage, memory, and running service
 
 From the Open Minis Telegram community
 
-Original sharer: **Mushroom picking and cold dripping of small mushrooms**
+Original sharer: **采菇凉滴小蘑菇**
 
 ---
 
