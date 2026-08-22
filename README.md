@@ -2,7 +2,7 @@
 
 > A curated collection of real-world **[Minis](https://openminis.app)** use cases, workflows, and creative scenarios — contributed by the community.
 
-**Minis** is an AI-powered assistant running on iOS with a full Linux shell (Alpine Linux), native Apple framework integrations (HealthKit, Calendar, Reminders, HomeKit, etc.), and a rich skill ecosystem. This repository collects the best ways people are actually using it.
+**Minis** is a private, on-device AI agent across **iOS and Android**. It brings leading models into a native mobile experience, with a full Linux shell (Alpine Linux), browser automation, extensible skills, persistent memory, and deep device integrations. This repository collects the best ways people are actually using it.
 
 ![Minis use cases banner](assets/banner.jpg)
 
