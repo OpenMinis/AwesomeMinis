@@ -30,6 +30,7 @@
 | [Photo a Coffee → Auto-Log Caffeine](cases/health/photo-log-caffeine.md) | Take a photo of your coffee, Minis identifies it and automatically logs the caffeine intake to Apple Health | @wsvn53 | Built-in |
 | [Photo Every Meal → Auto-Log Nutrition](cases/health/photo-log-meals.md) | Snap a photo of each meal — Minis identifies dishes, estimates calories/protein/carbs, and logs it all to Apple Health | @infinite_Game_ | Built-in |
 | [Photo + HealthKit: "How Much Did I Walk That Night?"](cases/health/photos-healthkit-vacation-detective.md) | Find a vacation photo by description, then auto cross-reference HealthKit steps/distance for that exact date and time window — chaining Photos, memory, and HealthKit in one pass | MacStories (Federico Viticci) | Built-in |
+| [Gym Check-In → Auto Weight Progression](cases/health/gym-training-checkin.md) | Pre-filled zero-typing workout check-in + deterministic double-progression for next weights + Apple Health logging | @justFI | `health-training-checkin` |
 
 ## ⚡ Productivity & Automation
 
