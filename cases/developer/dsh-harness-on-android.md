@@ -66,6 +66,14 @@ Write hello.txt into the current workspace, then tell me the absolute
 path so I can find it from the phone's file manager.
 ```
 
+### Proof: it really touches the files
+
+Not a mock-up. Asked dsh to rewrite `dsh-workspace/读书笔记.md` (a note on the DeepSeek-R1 paper), then opened the same path in the phone's file manager:
+
+![file proof](../../assets/screenshots/dsh-harness-file-proof.jpg)
+
+Same object on both sides — 1.8 KB, mtime 23:30, content is the rewritten version. The moment the harness wrote it, the phone's file manager showed the change. No sync step.
+
 ### Expected Output
 
 - `dsh --version` → `0.1.0-rc.x`, web UI reachable at `127.0.0.1:3080` (HTTP 200)
