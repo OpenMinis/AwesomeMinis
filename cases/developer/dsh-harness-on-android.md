@@ -80,8 +80,22 @@ path so I can find it from the phone's file manager.
 
 ## 📸 Screenshots
 
-Screenshots of the harness UI running inside Minis are in the setup repo:
-https://github.com/maple564/dsh-on-android
+Verified on Android 16, Chrome at `http://127.0.0.1:3080` — no mock-ups.
+
+<p align="center">
+<img src="../../assets/screenshots/dsh-harness-new-session.jpg" width="45%" alt="workspace screen">
+<img src="../../assets/screenshots/dsh-harness-session.jpg" width="45%" alt="session running">
+</p>
+
+Left: workspace screen, model shown as `DeepSeek-V4-Flash`. Right: a real session — chat/trace views, one artefact produced, 4 tasks done, 31 steps.
+
+<p align="center">
+<img src="../../assets/screenshots/dsh-harness-status.jpg" width="62%" alt="dsh-go --status">
+</p>
+
+`dsh-go --status` in the Minis shell — the process line reads `node --expose-internals /opt/dsh-harness/.../bin.js web`, which is the fix for the most confusing of the four setup failures.
+
+More detail, and the mount script, in https://github.com/maple564/dsh-on-android
 
 ---
 
