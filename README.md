@@ -103,6 +103,7 @@
 | [Rescue a Crashed OpenClaw via SSH](cases/developer/openclaw-rescue-ssh.md) | OpenClaw crashed after an update? SSH in from your iPhone, auto-diagnose and restart the service — no laptop needed | @wsvn53 | Built-in (SSH) |
 | [Remote Dev & Architecture Diagram Generation](cases/developer/remote-dev-arch-diagram.md) | SSH into a remote server, scan Swift source files, extract 3-layer architecture, generate diagram via Nano Banana — 2 min, zero intervention | @wsvn53 | Built-in (SSH) |
 | [Managing Oracle Free-Tier Servers](cases/developer/turtle-oracle-server-management.md) | Manage multiple Oracle free-tier servers using natural language—check disk, memory, and services; run commands | 采菇凉滴小蘑菇 | Built-in (SSH) |
+| [Run a Full Agent Harness with Phone Files as Its Workspace](cases/developer/dsh-harness-on-android.md) | Install `dsh web` inside the Minis sandbox, serve it on `127.0.0.1:3080`, and register a `/var/minis/mounts/...` path as its workspace — so the agent reads and writes your phone's Documents/Download directly | @maple564 | Built-in (shell + mounts) |
 
 ---
 
