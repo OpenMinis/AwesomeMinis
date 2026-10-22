@@ -10,14 +10,24 @@ There is a second, sharper problem: a desktop agent can't touch your phone's fil
 
 ### What It Does
 
-Installs **DeepSeek Harness (`dsh web`)** inside Minis' own Alpine sandbox, serves its web UI on `127.0.0.1:3080` (open it in Chrome), and — the point — **registers a Minis mount path as the harness workspace**, so the agent reads and writes your phone's `Documents` / `Download` directly.
+**Minis owns the local files. DeepSeek Harness owns the execution. One mounted directory is the only contract between them.**
 
-- Output lands in `Documents/dsh-workspace/` → open it immediately in a file manager, WPS or WeChat. No transfer step.
-- Reverse direction works too: drop a `.docx`, a timetable screenshot or an invoice PDF into `Documents` and let the harness read, edit and re-export it.
-- Inference uses your own API key; files never leave the device.
-- Runs entirely on the phone — no laptop, no SSH, no VPS.
+Concretely:
 
-This is the workflow that makes "an agent on a phone" different from "an agent on a laptop": the agent sits next to your files instead of behind a sync layer.
+| | Minis (local layer) | dsh (execution layer) |
+|---|---|---|
+| Owns | mounting phone storage, the Alpine sandbox, device APIs, API keys & permissions, app lifecycle | the agent loop, plan/todo decomposition, tool calls, long-task context, chat/trace views |
+| Guarantees | **the file is real, the device is real** | **the task is actually finished** (step counts, not vibes) |
+
+Set up: install **DeepSeek Harness (`dsh web`)** inside Minis' own Alpine sandbox, serve its web UI on `127.0.0.1:3080` (open it in Chrome), and **register a Minis mount path as the harness workspace** — so the harness reads and writes your phone's `Documents` / `Download` directly.
+
+Why the split is worth it:
+
+- **Each side does what it's good at.** Minis never has to run a 30-step agent loop; dsh never has to solve "how do I read this phone's photo library" (it couldn't).
+- **Output lands on the phone.** Files written to `Documents/dsh-workspace/` open immediately in a file manager, WPS or WeChat. No transfer step, no sync layer.
+- **Reverse direction works too.** Drop a `.docx`, a timetable screenshot or an invoice PDF into `Documents` and let the harness read, edit and re-export it.
+- **Observable.** Minis side: shell process and real file locations. dsh side: conversation, trace, step count. A failure is attributable to one layer immediately.
+- **Swappable.** Replace the execution layer with any other local service (Gradio, Jupyter, your own RAG) — the contract is just "a directory and a port".
 
 ### How to Use
 
