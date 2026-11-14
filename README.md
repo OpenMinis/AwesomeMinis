@@ -37,6 +37,7 @@
 | Name | Description | By | Skills Used |
 |------|-------------|----|-------------|
 | [Smart Daily Briefing](cases/productivity/smart-daily-briefing.md) | Every morning: pull calendar events, weather, news headlines, and Reminders into a single spoken briefing | OpenMinis | Built-in |
+| [Agent-Run Obsidian Vault](cases/productivity/obsidian-vault-agent-dashboard.md) | Minis mounts your Obsidian vault on iPhone, writes tasks/captures/meetings as plain Markdown, and the free Agentic Dashboard plugin renders them live — no Dataview needed | [@faizulahasun-cloud](https://github.com/faizulahasun-cloud) | Built-in |
 | [X Timeline Voice Alarm](cases/productivity/x-timeline-voice-alarm.md) | Replace your morning alarm — Shortcuts auto-fetches your X Timeline, summarizes it, generates TTS audio, and plays it to wake you up | @wsvn53 | `twitter-x-hub`, `doubao-tts` |
 | [Auto-Create Calendar from Shared Content](cases/productivity/auto-create-calendar-from-share.md) | Share any content with a time and place to Minis via the iOS Share Sheet — it instantly creates the calendar event | @wsvn53 | Built-in |
 | [Daily Briefing Auto-Push to WeChat](cases/productivity/daily-briefing-wechat-push.md) | Schedule Minis on iPad to fetch weather + news daily and auto-push to WeChat via openilink-hub | meng nimen | Built-in + openilink-hub |
