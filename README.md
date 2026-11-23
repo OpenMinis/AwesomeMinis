@@ -140,3 +140,9 @@ We welcome contributions from the community! Please read **[CONTRIBUTING.md](CON
 <p align="center">
   Made with ❤️ by the <a href="https://github.com/OpenMinis">OpenMinis</a> community
 </p>
+
+## Productivity & Automation Table Row
+
+| Case | Description | Status |
+|------|-------------|--------|
+| Agent-Run Obsidian Vault | Minis writes tasks/captures/meetings → Agentic Dashboard renders live dashboard | Draft |
