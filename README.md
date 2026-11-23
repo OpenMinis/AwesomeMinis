@@ -56,6 +56,8 @@
 | [Custom Scheduled Notification with Article Summary](cases/productivity/scheduled-article-notification.md) | Fetch fresh content, then fire a real iOS notification with a custom title and summary body via the native Notification framework — great for pinging you when a long task finishes | MacStories (Federico Viticci) | Built-in |
 | [Location-Aware Detailed Weather Forecast](cases/productivity/location-weather-forecast.md) | Grab your live location and pull a detailed native Apple Weather forecast — hourly table, UV index, feels-like temps, and a practical human-readable takeaway | MacStories (Federico Viticci) | Built-in |
 | [Clean Up a Decade-Old Address Book](cases/productivity/contacts-cleanup-merge-group.md) | Grant contacts access, tell Minis your merge rules — 1,833 contacts became 915 in one background task, with duplicates merged and groups added | @sunbelife | Built-in (contacts, agent task) |
+| [Agent-Run Obsidian Vault (Minis + Agentic Dashboard)](cases/productivity/obsidian-vault-agent-dashboard.md) | Minis writes tasks/captures/meetings to Obsidian vault; Agentic Dashboard plugin renders live dashboard | faizulahasun-cloud | `obsidian-agentic-dashboard`, `plugin-command-tester` |
+
 
 ## 🔬 Data & Research
 
@@ -141,9 +143,3 @@ We welcome contributions from the community! Please read **[CONTRIBUTING.md](CON
 <p align="center">
   Made with ❤️ by the <a href="https://github.com/OpenMinis">OpenMinis</a> community
 </p>
-
-## Productivity & Automation Table Row
-
-| Case | Description | Status |
-|------|-------------|--------|
-| Agent-Run Obsidian Vault | Minis writes tasks/captures/meetings → Agentic Dashboard renders live dashboard | Draft |
