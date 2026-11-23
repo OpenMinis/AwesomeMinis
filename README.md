@@ -54,6 +54,7 @@
 | [WeRead AI Reading Companion](cases/productivity/weread-skill-reading-companion.md) | Connect your WeRead account — browse bookshelf, export highlights, analyze reading habits, and get personalized book recommendations in one conversation | 𝐍𝐢𝐜𝐤𝐢𝐥𝐢𝐬𝐦 | External `weread-skills` |
 | [Custom Scheduled Notification with Article Summary](cases/productivity/scheduled-article-notification.md) | Fetch fresh content, then fire a real iOS notification with a custom title and summary body via the native Notification framework — great for pinging you when a long task finishes | MacStories (Federico Viticci) | Built-in |
 | [Location-Aware Detailed Weather Forecast](cases/productivity/location-weather-forecast.md) | Grab your live location and pull a detailed native Apple Weather forecast — hourly table, UV index, feels-like temps, and a practical human-readable takeaway | MacStories (Federico Viticci) | Built-in |
+| [Clean Up a Decade-Old Address Book](cases/productivity/contacts-cleanup-merge-group.md) | Grant contacts access, tell Minis your merge rules — 1,833 contacts became 915 in one background task, with duplicates merged and groups added | @sunbelife | Built-in (contacts, agent task) |
 
 ## 🔬 Data & Research
 
